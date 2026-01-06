@@ -1,0 +1,38 @@
+nohup: ignoring input
+5 Jan 14:44:22 - [info] 
+
+Welcome to Node-RED
+===================
+
+5 Jan 14:44:22 - [info] Node-RED version: v4.1.2
+5 Jan 14:44:22 - [info] Node.js  version: v25.2.1
+5 Jan 14:44:22 - [info] Linux 5.4.289-qgki-32200428-abA736BXXSAGYJ3 arm64 LE
+5 Jan 14:44:22 - [info] Loading palette nodes
+5 Jan 14:44:24 - [info] Dashboard version 3.6.6 started at /ui
+5 Jan 14:44:25 - [info] Settings file  : /data/data/com.termux/files/home/.node-red/settings.js
+5 Jan 14:44:25 - [info] Context store  : 'default' [module=memory]
+5 Jan 14:44:25 - [info] User directory : /data/data/com.termux/files/home/.node-red
+5 Jan 14:44:25 - [warn] Projects disabled : editorTheme.projects.enabled=false
+5 Jan 14:44:25 - [info] Flows file     : /data/data/com.termux/files/home/.node-red/flows.json
+5 Jan 14:44:25 - [warn] 
+
+---------------------------------------------------------------------
+Your flow credentials file is encrypted using a system-generated key.
+
+If the system-generated key is lost for any reason, your credentials
+file will not be recoverable, you will have to delete it and re-enter
+your credentials.
+
+You should set your own key using the 'credentialSecret' option in
+your settings file. Node-RED will then re-encrypt your credentials
+file using your chosen key the next time you deploy a change.
+---------------------------------------------------------------------
+
+5 Jan 14:44:25 - [warn] Encrypted credentials not found
+5 Jan 14:44:25 - [info] Server now running at http://127.0.0.1:1880/
+5 Jan 14:44:25 - [info] Starting flows
+5 Jan 14:44:25 - [error] [e-mail:Send via Gmail] No e-mail userid set
+5 Jan 14:44:25 - [error] [e-mail:Send via Gmail] No e-mail password set
+5 Jan 14:44:25 - [info] Started flows
+5 Jan 18:36:55 - [info] Stopping flows
+5 Jan 18:36:55 - [info] Stopped flows

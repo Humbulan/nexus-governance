@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🚨 URGENT: Fix monitor.humbu.store DNS</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #0f172a; color: white; }
+        h1 { color: #ef4444; }
+        .step { background: #1e293b; padding: 15px; margin: 10px 0; border-radius: 8px; }
+        .critical { border-left: 4px solid #ef4444; background: #7f1d1d; }
+        code { background: #374151; padding: 2px 5px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>🚨 URGENT: FIX MONITOR.HUMBU.STORE DNS</h1>
+    
+    <div class="step critical">
+        <h2>YOU MUST DO THIS NOW:</h2>
+        <p>1. Go to: <a href="https://dash.cloudflare.com" target="_blank">https://dash.cloudflare.com</a></p>
+        <p>2. Login → Select 'humbu.store' domain</p>
+        <p>3. Go to: DNS → Records</p>
+    </div>
+    
+    <div class="step">
+        <h2>FIND THIS RECORD:</h2>
+        <p>Look for:</p>
+        <ul>
+            <li>Type: CNAME</li>
+            <li>Name: monitor</li>
+            <li>Target: [some-old-id].cfargotunnel.com</li>
+        </ul>
+    </div>
+    
+    <div class="step critical">
+        <h2>EDIT THE RECORD:</h2>
+        <p>Change Target to:</p>
+        <p><code>c07a0d01-7820-49d5-ac68-36e48a6b2b94.cfargotunnel.com</code></p>
+        <p>EXACTLY this text</p>
+    </div>
+    
+    <div class="step">
+        <h2>SAVE AND WAIT:</h2>
+        <p>1. Click Save</p>
+        <p>2. Wait 2-3 minutes</p>
+        <p>3. Test: <a href="https://monitor.humbu.store">https://monitor.humbu.store</a></p>
+    </div>
+    
+    <div class="step">
+        <h2>LOCAL SYSTEM STATUS:</h2>
+        <p>✅ Local dashboards running (708 Members, 17 Vehicles visible)</p>
+        <p>✅ Cloudflare tunnel connected</p>
+        <p>❌ DNS points to wrong tunnel ID (needs manual fix)</p>
+    </div>
+</body>
+</html>

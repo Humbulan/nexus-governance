@@ -1,0 +1,11 @@
+{
+  "enquiry_no": "4000120009",
+  "status": "SENTC",
+  "unit": "Air Transport",
+  "profile_completion": "100%",
+  "last_updated": "$(date '+%Y-%m-%d %H:%M:%S')",
+  "dashboard_url": "https://nexus-dashboard.humbu.store",
+  "financial_flow": "R342,515.60",
+  "target_flow": "R595,238.10",
+  "progress_percent": 57.5
+}

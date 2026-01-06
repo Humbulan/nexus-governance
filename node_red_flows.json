@@ -1,0 +1,47 @@
+{
+  "flows": [
+    {
+      "id": "imperial-dashboard",
+      "type": "tab",
+      "label": "🏛️ Imperial Dashboard",
+      "disabled": false,
+      "info": "",
+      "env": []
+    },
+    {
+      "id": "gauteng-power-grid",
+      "type": "tab",
+      "label": "⚡ Gauteng Power Grid",
+      "disabled": false,
+      "info": "20-node industrial monitoring",
+      "env": []
+    },
+    {
+      "id": "revenue-automation",
+      "type": "tab",
+      "label": "💰 Revenue Automation",
+      "disabled": false,
+      "info": "$147,575/month automation",
+      "env": []
+    },
+    {
+      "id": "monday-surge",
+      "type": "tab",
+      "label": "🚀 Monday Surge",
+      "disabled": false,
+      "info": "Real-time surge monitoring",
+      "env": []
+    }
+  ],
+  "config": {
+    "exported_at": "$(date '+%Y-%m-%d %H:%M:%S')",
+    "version": "2026.1.0",
+    "dashboard_url": "https://nexus-dashboard.humbu.store",
+    "api_endpoints": {
+      "health": "http://localhost:9090/health",
+      "gauteng": "http://localhost:8080/api/gauteng",
+      "revenue": "http://localhost:8086/api/revenue",
+      "heartbeat": "http://localhost:8080/api/status"
+    }
+  }
+}

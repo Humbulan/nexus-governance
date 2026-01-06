@@ -1,0 +1,7 @@
+{
+  "hard_trigger_interval": "5 minutes",
+  "monitoring_capacity": "200%",
+  "surge_mode": "ACTIVE",
+  "virtual_nodes_monitored": 20,
+  "last_boost": "$(date '+%Y-%m-%d %H:%M:%S')"
+}

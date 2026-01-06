@@ -1,0 +1,3 @@
+Efficiency: 67.5%
+Optimal nodes: 27/40
+Revenue gain: 285.7%

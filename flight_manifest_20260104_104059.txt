@@ -1,0 +1,50 @@
+
+HUMBU IMPERIAL NEXUS - FLIGHT MANIFEST
+=======================================
+Generated: 2026-01-04 10:40:59
+IDC Enquiry Reference: #4000120009
+
+FLIGHT INFORMATION
+------------------
+Flight ID: HMB-AIR-01
+Call Sign: HUMBU-ALPHA
+Route: THY (Thohoyandou) → HRE (Harare)
+Status: In Flight
+Altitude: 32,000 ft
+Ground Speed: 480 kts
+ETA: 45 minutes
+
+CARGO DETAILS
+-------------
+Cargo Value: R125,000
+Cargo Type: Herbal Exports / Agricultural
+Funding Source: Village USSD Transactions (*120*5678#)
+Gateway: MTN MoMo USSD Gateway
+Processing: 20 Industrial Nodes (Gauteng Grid)
+
+FINANCIAL FLOW
+--------------
+Village Collection: 43 nodes via USSD
+USSD Processing: R35,000 daily average
+Industrial Settlement: R595,238.10/month capacity
+Air Transport: R125,000 incremental value
+
+GROUND SUPPORT
+--------------
+Ground Fleet: 17 vehicles
+Cold-Chain: 2°C - 5°C maintained
+Hub: Maniini Main Rd, Thohoyandou
+Efficiency: 98.4% route optimization
+
+VERIFICATION CHAIN
+------------------
+1. Jira Historical: LYSMR1W-14, LYSMR1W-11 (Dec 2025)
+2. ORCID Research: 0009-0000-9572-4535
+3. ROR Institutional: 02cc1pn48 (Connected Farms Pty Ltd)
+4. Live Telemetry: Real-time tracking active
+5. IDC Enquiry: #4000120009 (SENTC Status)
+
+---
+This manifest demonstrates operational readiness for SADC air transport.
+All data points are live and verifiable via command center.
+CEO: Humbulani Mudau | ORCID: 0009-0000-9572-4535

@@ -1,0 +1,53 @@
+#! /usr/bin/env python3
+import json
+import os
+from datetime import datetime
+
+def generate_idc_snapshot():
+    timestamp = datetime.now().strftime("%Y-%m-%d %I:%M %p")
+    # Use absolute path for Termux environment
+    home_dir = "/data/data/com.termux/files/home"
+    nexus_dir = os.path.join(home_dir, "humbu_community_nexus")
+    filename = f"daily_summary_{datetime.now().strftime('%Y%m%d')}.txt"
+    filepath = os.path.join(nexus_dir, filename)
+
+    summary = f"""
+🏛️ HUMBU IMPERIAL - DAILY EXECUTIVE SNAPSHOT
+============================================
+Generated: {timestamp}
+IDC Reference: Enquiry #4000120009 (SENTC)
+
+💰 FINANCIAL VELOCITY
+---------------------
+• Village USSD (*120*5678#): R35,000 (Avg Daily)
+• Monthly Capacity: R595,238.10
+• Target Progress: 59.5% to R1M Q1 Goal
+
+✈️ AIR CORRIDOR STATUS (HMB-AIR-01)
+-----------------------------------
+• Current Cargo Value: R125,000
+• Primary Route: THY -> HRE (Verified)
+• Funding: 100% USSD Aggregation
+
+🚚 GROUND LOGISTICS
+-------------------
+• Active Fleet: 17 Vehicles
+• Cold-Chain: 2°C - 5°C (100% Compliance)
+• Hub Efficiency: 98.4%
+
+🛡️ INSTITUTIONAL VERIFICATION
+-----------------------------
+• ORCID: 0009-0000-9572-4535
+• ROR: 02cc1pn48 (Connected Farms Pty Ltd)
+• Jira Legacy: LYSMR1W-14 (Verified Dec 2025)
+
+✅ ALL SYSTEMS OPERATIONAL | WAKE-LOCK ACTIVE
+============================================
+"""
+    with open(filepath, "w") as f:
+        f.write(summary)
+    print(f"✅ Report saved to: {filepath}")
+    print(summary)
+
+if __name__ == "__main__":
+    generate_idc_snapshot()

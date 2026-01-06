@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDC Executive Briefing • HMB Imperial</title>
+    <style>
+        body { background: #0a1929; color: #e6f7ff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; }
+        .container { border: 2px solid #13c2c2; padding: 25px; border-radius: 12px; max-width: 700px; margin: auto; background: rgba(0,0,0,0.4); box-shadow: 0 0 20px rgba(19, 194, 194, 0.2); }
+        h1 { color: #ffd700; border-bottom: 2px solid #ffd700; padding-bottom: 10px; font-size: 1.5rem; }
+        .section-title { color: #13c2c2; font-weight: bold; margin-top: 20px; border-left: 3px solid #ffd700; padding-left: 10px; }
+        .data-point { margin: 10px 0; padding-left: 20px; }
+        .highlight { color: #52c41a; font-weight: bold; }
+        .footer { margin-top: 30px; font-size: 0.8rem; border-top: 1px solid #333; pt: 10px; text-align: center; color: #888; }
+        a { color: #ffd700; text-decoration: none; font-size: 0.9rem; }
+    </style>
+<script> 
+  async function updateImperialMetrics() { 
+    try { 
+      const response = await fetch("./api/financials.json"); 
+      const data = await response.json(); 
+      document.getElementById("live-revenue").innerText = data.daily_revenue; 
+      document.getElementById("air-cargo").innerText = data.air_cargo; 
+      document.getElementById("sync-status").innerText = "SYNCED: " + data.last_sync; 
+    } catch (e) { console.log("Waiting for Imperial Link..."); } 
+  } 
+  setInterval(updateImperialMetrics, 5000); 
+  window.onload = updateImperialMetrics; 
+</script>
+</head>
+<body>
+    <a href="navigation.html">⬅️ Back to Command Center</a>
+    <div class="container">
+        <h1>📊 DAILY IDC BRIEFING: 2026-01-05</h1>
+        
+        <div class="section-title">💰 FINANCIAL VELOCITY</div>
+        <div class="data-point">Village USSD (*120*5678#): <span class="highlight">R35,000 (Avg Daily)</span></div>
+        <div class="data-point">Monthly Capacity: <span class="highlight">R595,238.10</span></div>
+        <div class="data-point">Target Progress: <span class="highlight">59.5% to R1M Q1 Goal</span></div>
+
+        <div class="section-title">✈️ AIR CORRIDOR (HMB-AIR-01)</div>
+        <div class="data-point">Current Cargo Value: R125,000</div>
+        <div class="data-point">Primary Route: THY -> HRE (Verified)</div>
+
+        <div class="section-title">🚚 GROUND LOGISTICS</div>
+        <div class="data-point">Active Fleet: 17 Vehicles</div>
+        <div class="data-point">Hub Efficiency: <span class="highlight">98.4%</span></div>
+
+        <div class="section-title">🛡️ INSTITUTIONAL VERIFICATION</div>
+        <div class="data-point">ROR: 02cc1pn48 (Connected Farms Pty Ltd)</div>
+        <div class="data-point">Enquiry Status: <span class="highlight">#4000120009 Verified</span></div>
+
+        <div class="footer">
+            🏢 Humbu Imperial • Global Minded. Village Rooted.<br>
+            System Status: 59.5% Industrial Target Capacity Reached
+        </div>
+    </div>
+</body>
+</html>

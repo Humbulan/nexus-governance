@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🚨 URGENT: Cloudflare DNS Fix Required</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #0f172a; color: white; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { color: #ef4444; }
+        .step { background: #1e293b; padding: 15px; margin: 10px 0; border-radius: 8px; border-left: 4px solid #10b981; }
+        .important { border-left: 4px solid #ef4444; background: #7f1d1d; }
+        code { background: #374151; padding: 2px 5px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚨 URGENT: CLOUDFLARE DNS FIX REQUIRED</h1>
+        <p>For: <strong>monitor.humbu.store</strong></p>
+        <p>Error: "An A, AAAA, or CNAME record with that host already exists"</p>
+        
+        <div class="step important">
+            <h2>📋 EXACT FIX REQUIRED:</h2>
+            <p>You MUST update the Cloudflare DNS record for <code>monitor.humbu.store</code></p>
+        </div>
+        
+        <div class="step">
+            <h2>1. GO TO CLOUDFLARE DASHBOARD:</h2>
+            <p><a href="https://dash.cloudflare.com" target="_blank">https://dash.cloudflare.com</a></p>
+            <p>Login → Select <code>humbu.store</code> → DNS → Records</p>
+        </div>
+        
+        <div class="step">
+            <h2>2. FIND THIS RECORD (IT EXISTS):</h2>
+            <p>Look for a record with:</p>
+            <ul>
+                <li><strong>Type:</strong> CNAME</li>
+                <li><strong>Name:</strong> monitor</li>
+                <li><strong>Target:</strong> [some-other-id].cfargotunnel.com</li>
+            </ul>
+            <p>This is pointing to an OLD tunnel ID!</p>
+        </div>
+        
+        <div class="step">
+            <h2>3. EDIT THE RECORD:</h2>
+            <p>Change <strong>Target</strong> to:</p>
+            <p><code>c07a0d01-7820-49d5-ac68-36e48a6b2b94.cfargotunnel.com</code></p>
+            <p>Exactly this text - no spaces, no quotes</p>
+        </div>
+        
+        <div class="step">
+            <h2>4. SAVE AND WAIT:</h2>
+            <p>• Save the record</p>
+            <p>• Wait 2-3 minutes for DNS propagation</p>
+            <p>• Then test: <a href="https://monitor.humbu.store">https://monitor.humbu.store</a></p>
+        </div>
+        
+        <div class="step">
+            <h2>5. START TUNNEL AFTER DNS UPDATE:</h2>
+            <p>Run in Termux:</p>
+            <code>cloudflared tunnel run --url http://localhost:8088 humbu-imperial</code>
+        </div>
+        
+        <div class="step important">
+            <h2>🎯 FOR IDC PRESENTATION (RIGHT NOW):</h2>
+            <p>Use temporary URL while fixing DNS:</p>
+            <p><code>https://food-clients-likes-agreed.trycloudflare.com/legacy_navigation.html</code></p>
+            <p>This shows 708 Members, 17 Vehicles immediately</p>
+        </div>
+        
+        <div class="step">
+            <h2>📧 EMAIL TO IDC (INTERIM):</h2>
+            <p>"monitor.humbu.store DNS update in progress. Interim access available at:<br>
+            https://food-clients-likes-agreed.trycloudflare.com/legacy_navigation.html<br>
+            Showing: 708 members, 17 vehicles, $47,574.56 revenue.<br>
+            Domain restoration completes within 10 minutes."</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "last_update": "2026-01-05T19:10:00.000Z",
+  "timestamp": 1767621000,
+  "fleet": [
+    {"id": "HMB-FLEET-01", "status": "In Transit", "location": "Maniini Main Rd", "temp": "2.4°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-02", "status": "Route Optimizing", "location": "Thohoyandou-F Hub", "temp": "3.1°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-03", "status": "Loading", "location": "Vhembe District Center", "temp": "2.8°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-04", "status": "In Transit", "location": "Gauteng Gateway", "temp": "3.2°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-05", "status": "Unloading", "location": "SADC Border Link", "temp": "2.6°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-06", "status": "Returning", "location": "Limpopo Logistics Hub", "temp": "3.4°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-07", "status": "In Transit", "location": "Vhembe District", "temp": "3.0°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-08", "status": "Loading", "location": "Maniini South Terminal", "temp": "2.9°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-09", "status": "In Transit", "location": "Thohoyandou-F Hub", "temp": "3.7°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-10", "status": "Route Optimizing", "location": "Vhembe Command Center", "temp": "3.0°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-11", "status": "In Transit", "location": "Gauteng Industrial Zone", "temp": "2.5°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-12", "status": "Unloading", "location": "SADC Border Link", "temp": "3.3°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-13", "status": "Returning", "location": "Limpopo Logistics Hub", "temp": "2.7°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-14", "status": "Loading", "location": "Maniini Main Rd", "temp": "3.5°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-15", "status": "In Transit", "location": "Thohoyandou-F Hub", "temp": "2.8°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-16", "status": "Route Optimizing", "location": "Vhembe Command Center", "temp": "3.2°C", "last_update": "19:10:00"},
+    {"id": "HMB-FLEET-17", "status": "In Transit", "location": "Gauteng Industrial Zone", "temp": "2.9°C", "last_update": "19:10:00"}
+  ],
+  "metrics": {
+    "total_vehicles": 17,
+    "operational": "100%",
+    "cold_chain_compliance": "100%",
+    "revenue_processing": "R595,238.10/month",
+    "village_nodes": 43,
+    "industrial_grid": "20/20",
+    "progress": 59.5,
+    "last_system_update": "19:10:00"
+  }
+}

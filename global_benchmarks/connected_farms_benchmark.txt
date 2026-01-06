@@ -1,0 +1,34 @@
+🏛️ GLOBAL BENCHMARK: CONNECTED FARMS PTY LTD
+=============================================
+ROR ID: 02cc1pn48
+Location: Australia
+Sector: Agricultural Technology & Connectivity
+Benchmark Date: 2026-01-03
+
+📊 STRATEGIC ALIGNMENT:
+• Connectivity Model: Wide-area Wi-Fi for agricultural regions
+• Humbu Alignment: USSD Gateway + Cloudflare Tunnel network
+• Scale Reference: Industrial agricultural connectivity
+• Validation: ROR-registered research organization
+
+🎯 KEY INSIGHTS FOR HUMBU:
+1. Connectivity as Infrastructure
+   - Connected Farms: Wi-Fi as utility for farms
+   - Humbu: Digital connectivity as community utility
+
+2. Agricultural-Tech Integration
+   - Connected Farms: Farm-to-market connectivity
+   - Humbu: Village-to-market commerce platform
+
+3. Scalability Model
+   - Connected Farms: Regional agricultural networks
+   - Humbu: Provincial community commerce networks
+
+🔗 ROR VERIFICATION:
+https://ror.org/02cc1pn48
+Verified Research Organization
+
+✅ INTEGRATION STATUS:
+• Benchmark Registered: 2026-01-03
+• Strategy Aligned: Connectivity-first approach
+• Presentation Ready: Global reference point

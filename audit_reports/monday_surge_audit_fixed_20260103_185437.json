@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-01-03T18:54:37.428095",
+  "checks": [
+    {
+      "name": "\ud83c\udf10 Cloudflare Tunnel",
+      "current": 8,
+      "required": 1,
+      "ready": true
+    },
+    {
+      "name": "\ud83c\udfdb\ufe0f Gauteng Power Grid",
+      "current": 20,
+      "required": 20,
+      "ready": true
+    },
+    {
+      "name": "\ud83d\udcf1 USSD Gateway",
+      "current": 1,
+      "required": 1,
+      "ready": true
+    },
+    {
+      "name": "\ud83d\udcc4 Board Reports",
+      "current": 5,
+      "required": 5,
+      "ready": true
+    },
+    {
+      "name": "\ud83d\udcb0 Contract Ledger",
+      "current": 2,
+      "required": 1,
+      "ready": true
+    },
+    {
+      "name": "\ud83d\udea8 Hard-Trigger",
+      "current": 5,
+      "required": 5,
+      "ready": true
+    }
+  ],
+  "financial": {
+    "current_flow": 595238.1,
+    "target_flow": 595238.1,
+    "capacity_percent": 100.0,
+    "ready": true
+  },
+  "overall_ready": true
+}

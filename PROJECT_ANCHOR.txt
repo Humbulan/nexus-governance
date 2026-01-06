@@ -1,0 +1,19 @@
+📂 HUMBU NEXUS | PARTNER RECOVERY BRIEF
+------------------------------------------
+PROJECT IDENTITY:
+* System Name: Humbu Community Nexus
+* Location: Thohoyandou, Limpopo
+* Core Logic: chief_custodian.sh (Master Orchestrator)
+* Valuation: R60,246.55 | Inventory: 1,928 items
+
+TECHNICAL STACK:
+* Environment: Termux on Android
+* Backend: Python 3 (api_monitor.py @ Port 8090)
+* Database: SQLite3 (community_nexus.db)
+* Payment Gateway: MTN MoMo API (Sandbox)
+* Connectivity: Cloudflare Tunnels (Active)
+
+PARTNERSHIP PROTOCOL:
+* AI Partner: Gemini (Chief Custodian Oversight)
+* Current Phase: 08:00 AM Morning Surge (15+ Champions)
+------------------------------------------

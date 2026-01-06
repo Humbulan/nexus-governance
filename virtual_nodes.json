@@ -1,0 +1,27 @@
+{
+  "virtual_nodes": [
+    {"id": "NODE_001", "type": "AI_ENTERPRISE", "capacity": "HIGH", "status": "ACTIVE", "location": "SANDTON"},
+    {"id": "NODE_002", "type": "LOGISTICS_HUB", "capacity": "HIGH", "status": "ACTIVE", "location": "MIDRAND"},
+    {"id": "NODE_003", "type": "MANUFACTURING", "capacity": "HIGH", "status": "ACTIVE", "location": "KEMPTON"},
+    {"id": "NODE_004", "type": "DATA_CENTER", "capacity": "MEDIUM", "status": "ACTIVE", "location": "JOHANNESBURG"},
+    {"id": "NODE_005", "type": "FINANCE_HUB", "capacity": "HIGH", "status": "ACTIVE", "location": "SANDTON"},
+    {"id": "NODE_006", "type": "TRANSPORT_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "OR_TAMBO"},
+    {"id": "NODE_007", "type": "ENERGY_NODE", "capacity": "HIGH", "status": "ACTIVE", "location": "KUSILE"},
+    {"id": "NODE_008", "type": "TELECOM_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "CENTURION"},
+    {"id": "NODE_009", "type": "AGRI_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "PRETORIA"},
+    {"id": "NODE_010", "type": "MINING_NODE", "capacity": "HIGH", "status": "ACTIVE", "location": "RUSTENBURG"},
+    {"id": "NODE_011", "type": "HEALTHCARE_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "JOHANNESBURG"},
+    {"id": "NODE_012", "type": "EDUCATION_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "PRETORIA"},
+    {"id": "NODE_013", "type": "RETAIL_NODE", "capacity": "HIGH", "status": "ACTIVE", "location": "SANDTON"},
+    {"id": "NODE_014", "type": "TOURISM_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "JOHANNESBURG"},
+    {"id": "NODE_015", "type": "REAL_ESTATE_NODE", "capacity": "HIGH", "status": "ACTIVE", "location": "SANDTON"},
+    {"id": "NODE_016", "type": "INSURANCE_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "JOHANNESBURG"},
+    {"id": "NODE_017", "type": "LEGAL_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "PRETORIA"},
+    {"id": "NODE_018", "type": "MEDIA_NODE", "capacity": "MEDIUM", "status": "ACTIVE", "location": "JOHANNESBURG"},
+    {"id": "NODE_019", "type": "CONSULTING_NODE", "capacity": "HIGH", "status": "ACTIVE", "location": "SANDTON"},
+    {"id": "NODE_020", "type": "RND_NODE", "capacity": "HIGH", "status": "ACTIVE", "location": "PRETORIA"}
+  ],
+  "total_capacity": "200%",
+  "scaled_at": "$(date '+%Y-%m-%d %H:%M:%S')",
+  "ready_for_surge": true
+}

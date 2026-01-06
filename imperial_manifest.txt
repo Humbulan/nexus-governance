@@ -1,0 +1,19 @@
+🏛️ HUMBU IMPERIAL NEXUS - MASTER MANIFEST
+=========================================
+ENTITY: Connected Farms Pty Ltd (ROR: 02cc1pn48)
+IDC ENQUIRY: #4000120009
+STATUS: 100% OPERATIONAL
+
+CORE INFRASTRUCTURE:
+• Linux/Termux 20-Node Grid
+• Node-RED Automation (Port 1880)
+• Sage AI Intelligence (Ollama)
+• Executive Dashboard (Port 8088)
+
+PUBLIC GATEWAY:
+• monitor.humbu.store (Cloudflare)
+
+RECOVERY PROTOCOLS:
+• nexus-revive (Full Stack Restoration)
+• dawn-report (Daily Metrics)
+=========================================

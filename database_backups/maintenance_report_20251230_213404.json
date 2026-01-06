@@ -1,0 +1,80 @@
+{
+  "maintenance_date": "2025-12-30T21:34:04.436482",
+  "backup_files": [
+    {
+      "filename": "community_nexus_backup_20251229_122431.db",
+      "size_bytes": 446464,
+      "size_mb": 0.43
+    },
+    {
+      "filename": "community_nexus_dump_20251229_122431.sql",
+      "size_bytes": 293713,
+      "size_mb": 0.28
+    },
+    {
+      "filename": "transactions_backup_20251229_122431.json",
+      "size_bytes": 168,
+      "size_mb": 0.0
+    },
+    {
+      "filename": "marketplace_backup_20251229_122431.csv",
+      "size_bytes": 211744,
+      "size_mb": 0.2
+    },
+    {
+      "filename": "maintenance_report_20251229_122431.json",
+      "size_bytes": 676,
+      "size_mb": 0.0
+    },
+    {
+      "filename": "community_nexus_backup_20251229_122618.db",
+      "size_bytes": 237568,
+      "size_mb": 0.23
+    },
+    {
+      "filename": "community_nexus_dump_20251229_122618.sql",
+      "size_bytes": 293939,
+      "size_mb": 0.28
+    },
+    {
+      "filename": "transactions_backup_20251229_122618.json",
+      "size_bytes": 168,
+      "size_mb": 0.0
+    },
+    {
+      "filename": "marketplace_backup_20251229_122618.csv",
+      "size_bytes": 211744,
+      "size_mb": 0.2
+    },
+    {
+      "filename": "maintenance_report_20251229_122618.json",
+      "size_bytes": 1290,
+      "size_mb": 0.0
+    },
+    {
+      "filename": "community_nexus_backup_20251230_213404.db",
+      "size_bytes": 307200,
+      "size_mb": 0.29
+    },
+    {
+      "filename": "community_nexus_dump_20251230_213404.sql",
+      "size_bytes": 347922,
+      "size_mb": 0.33
+    },
+    {
+      "filename": "transactions_backup_20251230_213404.json",
+      "size_bytes": 14627,
+      "size_mb": 0.01
+    },
+    {
+      "filename": "marketplace_backup_20251230_213404.csv",
+      "size_bytes": 234169,
+      "size_mb": 0.22
+    }
+  ],
+  "statistics": {
+    "marketplace_items": 1928,
+    "transactions": 133,
+    "villages_covered": 40
+  }
+}

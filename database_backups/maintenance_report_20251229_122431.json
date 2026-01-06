@@ -1,0 +1,30 @@
+{
+  "maintenance_date": "2025-12-29T12:24:32.128944",
+  "backup_files": [
+    {
+      "filename": "community_nexus_backup_20251229_122431.db",
+      "size_bytes": 446464,
+      "size_mb": 0.43
+    },
+    {
+      "filename": "community_nexus_dump_20251229_122431.sql",
+      "size_bytes": 293713,
+      "size_mb": 0.28
+    },
+    {
+      "filename": "transactions_backup_20251229_122431.json",
+      "size_bytes": 168,
+      "size_mb": 0.0
+    },
+    {
+      "filename": "marketplace_backup_20251229_122431.csv",
+      "size_bytes": 211744,
+      "size_mb": 0.2
+    }
+  ],
+  "statistics": {
+    "marketplace_items": 1924,
+    "transactions": 1,
+    "villages_covered": 40
+  }
+}

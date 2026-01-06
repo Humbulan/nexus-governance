@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-01-04T11:20:40.554193",
+  "workflow_id": "VILLAGE-INDUSTRIAL-202601041120",
+  "status": "INITIALIZED",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Rank Synchronization",
+      "action": "Sync village delivery ranks to Midrand API",
+      "endpoint": "midrand-logistics/api/v1/village-sync",
+      "estimated_completion": "2026-01-04T12:20:40.554193"
+    },
+    {
+      "phase": 2,
+      "name": "Capacity Calibration",
+      "action": "Match village capacity to industrial processing",
+      "endpoint": "midrand-logistics/api/v1/capacity-match",
+      "estimated_completion": "2026-01-04T13:20:40.554193"
+    },
+    {
+      "phase": 3,
+      "name": "Payment Gateway Integration",
+      "action": "Connect USSD payments to industrial settlements",
+      "endpoint": "financial/api/v1/ussd-industrial-link",
+      "estimated_completion": "2026-01-04T14:20:40.554193"
+    },
+    {
+      "phase": 4,
+      "name": "Real-time Monitoring",
+      "action": "Activate live telemetry for handoff tracking",
+      "endpoint": "telemetry/api/v1/village-industrial",
+      "estimated_completion": "2026-01-04T15:20:40.554193"
+    }
+  ],
+  "synergy_metrics": {
+    "total_daily_capacity": 3030.0,
+    "monthly_potential": 90900.0,
+    "midrand_utilization": 86.57142857142858,
+    "estimated_yield_increase": 68175.0,
+    "optimal_workers": 19
+  },
+  "village_ranks": {
+    "street_cleaning": {
+      "rank": 1,
+      "daily_capacity": 1200.0,
+      "workers": 8,
+      "status": "Active",
+      "efficiency": 92.5
+    },
+    "delivery_assistance": {
+      "rank": 2,
+      "daily_capacity": 980.0,
+      "workers": 6,
+      "status": "Active",
+      "efficiency": 88.3
+    },
+    "agricultural_collection": {
+      "rank": 3,
+      "daily_capacity": 850.0,
+      "workers": 5,
+      "status": "Active",
+      "efficiency": 85.7
+    }
+  },
+  "industrial_node": {
+    "name": "Midrand Logistics Center",
+    "current_yield": 124200.0,
+    "target": 200000.0,
+    "processing_capacity": 3500.0,
+    "link_status": "READY_FOR_SYNC",
+    "village_integration": "PENDING"
+  },
+  "expected_outcomes": {
+    "daily_yield_increase": "R2,272.50",
+    "monthly_addition": "R68,175.00",
+    "midrand_utilization": "86.6%",
+    "worker_optimization": 19
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Humbu Imperial - Access Portal</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        .link-group { margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 5px; }
+        .link { display: block; padding: 10px; margin: 5px 0; background: #3498db; color: white; text-decoration: none; border-radius: 5px; }
+        .link:hover { background: #2980b9; }
+        .status { padding: 5px 10px; border-radius: 3px; font-weight: bold; }
+        .working { background: #2ecc71; color: white; }
+        .not-working { background: #e74c3c; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏛️ Humbu Imperial Access Portal</h1>
+        <p>Multiple ways to access your dashboard:</p>
+        
+        <div class="link-group">
+            <h2>🌐 Primary Dashboards</h2>
+            <a href="https://nexus-dashboard.humbu.store" class="link">
+                ✅ Node-RED Dashboard (Working)
+            </a>
+            <a href="https://monitor.humbu.store" class="link">
+                ⚠️ Imperial Portal (DNS Pending)
+            </a>
+        </div>
+        
+        <div class="link-group">
+            <h2>🏠 Local Network Access</h2>
+            <a href="http://localhost:8000" class="link">
+                Imperial Portal (Local)
+            </a>
+            <a href="http://localhost:1880" class="link">
+                Node-RED (Local)
+            </a>
+        </div>
+        
+        <div class="link-group">
+            <h2>📊 API Endpoints</h2>
+            <a href="http://localhost:8080/api/stats" class="link">
+                Community Stats API
+            </a>
+            <a href="http://localhost:8086/api/revenue" class="link" target="_blank">
+                Revenue API (R28,660.03)
+            </a>
+        </div>
+        
+        <div class="link-group">
+            <h2>🔧 Configuration Status</h2>
+            <p><span class="status working">✅</span> Tunnel: humbu-platform-tunnel</p>
+            <p><span class="status working">✅</span> Portal Server: Port 8000</p>
+            <p><span class="status working">✅</span> Revenue API: Port 8086</p>
+            <p><span class="status not-working">❌</span> DNS: monitor.humbu.store needs CNAME record</p>
+        </div>
+    </div>
+</body>
+</html>

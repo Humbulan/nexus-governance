@@ -1,0 +1,112 @@
+[
+    {
+        "id": "email-button-flow",
+        "type": "tab",
+        "label": "📧 Email Engine",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "weekend-recap-trigger",
+        "type": "ui_button",
+        "z": "email-button-flow",
+        "name": "Send Weekend Recap",
+        "group": "email-group",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "📤 Send Recap to IDC",
+        "tooltip": "Send professional weekend recap email",
+        "color": "gold",
+        "bgcolor": "#2c3e50",
+        "className": "",
+        "icon": "fa-paper-plane",
+        "payload": "send",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            ["load-recap-data"]
+        ]
+    },
+    {
+        "id": "load-recap-data",
+        "type": "file in",
+        "z": "email-button-flow",
+        "name": "Load Recap JSON",
+        "filename": "/data/data/com.termux/files/home/humbu_community_nexus/weekend_recap.json",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf8",
+        "allProps": false,
+        "x": 350,
+        "y": 100,
+        "wires": [
+            ["parse-recap-json"]
+        ]
+    },
+    {
+        "id": "parse-recap-json",
+        "type": "json",
+        "z": "email-button-flow",
+        "name": "Parse Recap",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 100,
+        "wires": [
+            ["email-sender"]
+        ]
+    },
+    {
+        "id": "email-sender",
+        "type": "e-mail",
+        "z": "email-button-flow",
+        "server": "smtp.gmail.com",
+        "port": "587",
+        "secure": true,
+        "tls": true,
+        "name": "Send via Gmail",
+        "dname": "",
+        "x": 750,
+        "y": 100,
+        "wires": [
+            ["email-sent-confirmation"]
+        ]
+    },
+    {
+        "id": "email-sent-confirmation",
+        "type": "ui_toast",
+        "z": "email-button-flow",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Email Sent Confirmation",
+        "x": 950,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "email-group",
+        "type": "ui_group",
+        "name": "Email Engine",
+        "tab": "dashboard-tab",
+        "order": 4,
+        "width": "12",
+        "height": "3",
+        "className": ""
+    }
+]

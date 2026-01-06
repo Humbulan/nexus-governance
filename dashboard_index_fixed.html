@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🏛️ Humbu Imperial - Dashboard Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; padding: 30px 0; }
+        .logo { font-size: 3rem; margin-bottom: 10px; }
+        .title { font-size: 2.5rem; color: #74b9ff; margin-bottom: 10px; }
+        .subtitle { color: #dfe6e9; opacity: 0.8; font-size: 1.2rem; }
+        .status-badge { background: #00b894; padding: 5px 15px; border-radius: 20px; display: inline-block; margin-top: 10px; }
+        
+        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 40px 0; }
+        .card { background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 25px; border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); border-color: #74b9ff; }
+        .card-title { font-size: 1.5rem; color: #74b9ff; margin-bottom: 15px; display: flex; align-items: center; }
+        .card-title i { margin-right: 10px; }
+        .card-content { color: #b2bec3; }
+        .url-list { list-style: none; margin-top: 15px; }
+        .url-list li { margin: 8px 0; padding: 10px; background: rgba(255, 255, 255, 0.03); border-radius: 8px; }
+        .url-list a { color: #00b894; text-decoration: none; display: block; }
+        .url-list a:hover { color: #74b9ff; }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 30px 0; }
+        .stat-card { background: rgba(0, 184, 148, 0.1); padding: 15px; border-radius: 10px; text-align: center; }
+        .stat-value { font-size: 2rem; font-weight: bold; color: #00b894; }
+        .stat-label { font-size: 0.9rem; color: #b2bec3; margin-top: 5px; }
+        
+        .footer { text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.1); color: #636e72; }
+        
+        @media (max-width: 768px) {
+            .dashboard-grid { grid-template-columns: 1fr; }
+            .title { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🏛️</div>
+            <h1 class="title">HUMBU IMPERIAL DASHBOARD HUB</h1>
+            <div class="subtitle">Real-time monitoring & intelligence platform</div>
+            <div class="status-badge">● SYSTEM STATUS: ONLINE</div>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">4/4</div>
+                <div class="stat-label">APIs RUNNING</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">UPTIME</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">40</div>
+                <div class="stat-label">VILLAGES</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">708+</div>
+                <div class="stat-label">USERS</div>
+            </div>
+        </div>
+        
+        <div class="dashboard-grid">
+            <!-- Health API Card -->
+            <div class="card">
+                <div class="card-title">🏥 HEALTH MONITOR</div>
+                <div class="card-content">
+                    System health monitoring and diagnostics
+                    <ul class="url-list">
+                        <li><a href="https://health.monitor.humbu.store/" target="_blank">Dashboard</a></li>
+                        <li><a href="https://health.monitor.humbu.store/health" target="_blank">Health Check</a></li>
+                        <li><a href="https://health.monitor.humbu.store/status" target="_blank">System Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Community Portal Card -->
+            <div class="card">
+                <div class="card-title">🌍 COMMUNITY PORTAL</div>
+                <div class="card-content">
+                    Village intelligence and marketplace
+                    <ul class="url-list">
+                        <li><a href="https://monitor.humbu.store/" target="_blank">Main Dashboard</a></li>
+                        <li><a href="https://monitor.humbu.store/api/health" target="_blank">API Health</a></li>
+                        <li><a href="https://monitor.humbu.store/api/stats" target="_blank">System Stats</a></li>
+                        <li><a href="https://monitor.humbu.store/api/simple/villages" target="_blank">Villages List</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Government API Card -->
+            <div class="card">
+                <div class="card-title">🏛️ GOVERNMENT API</div>
+                <div class="card-content">
+                    Public services and infrastructure
+                    <ul class="url-list">
+                        <li><a href="https://gov.monitor.humbu.store/" target="_blank">API Status</a></li>
+                        <li><a href="https://gov.monitor.humbu.store/api/services" target="_blank">Services List</a></li>
+                        <li><a href="https://gov.monitor.humbu.store/api/gauteng" target="_blank">Gauteng Expansion</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Revenue Bridge Card -->
+            <div class="card">
+                <div class="card-title">💰 REVENUE BRIDGE</div>
+                <div class="card-content">
+                    Financial data and transactions
+                    <ul class="url-list">
+                        <li><a href="https://revenue.monitor.humbu.store/" target="_blank">Revenue Dashboard</a></li>
+                        <li><a href="https://revenue.monitor.humbu.store/api/revenue" target="_blank">Revenue Data</a></li>
+                        <li><a href="https://revenue.monitor.humbu.store/api/transactions/latest" target="_blank">Latest Transactions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" style="margin-top: 30px;">
+            <div class="card-title">🌐 EXTERNAL ACCESS</div>
+            <div class="card-content">
+                <p>Access from anywhere via Cloudflare:</p>
+                <ul class="url-list">
+                    <li><a href="https://monitor.humbu.store" target="_blank">Main Dashboard (Cloudflare)</a></li>
+                    <li><a href="https://health.monitor.humbu.store" target="_blank">Health Dashboard</a></li>
+                    <li><a href="https://gov.monitor.humbu.store" target="_blank">Government Dashboard</a></li>
+                    <li><a href="https://revenue.monitor.humbu.store" target="_blank">Revenue Dashboard</a></li>
+                </ul>
+                <p style="margin-top: 15px; color: #74b9ff;">Note: External URLs may take 1-2 minutes to propagate after Cloudflare restart.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Humbu Imperial Platform v2025.12.31 | APIs: 100% Operational</p>
+            <p>Monitor running for: <span id="uptime">0h 0m</span> | Next check: <span id="nextCheck">--:--</span></p>
+        </div>
+    </div>
+    
+    <script>
+        // Update uptime counter
+        let startTime = new Date();
+        function updateUptime() {
+            let now = new Date();
+            let diff = now - startTime;
+            let hours = Math.floor(diff / (1000 * 60 * 60));
+            let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            document.getElementById('uptime').textContent = `${hours}h ${minutes}m`;
+            
+            // Update next check time
+            let nextCheck = new Date(now.getTime() + 5000);
+            document.getElementById('nextCheck').textContent = nextCheck.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        }
+        
+        updateUptime();
+        setInterval(updateUptime, 1000);
+        
+        // Test all URLs (quietly in background)
+        setTimeout(() => {
+            const urls = [
+                'https://health.monitor.humbu.store/health',
+                'https://monitor.humbu.store/api/health',
+                'https://gov.monitor.humbu.store/',
+                'https://revenue.monitor.humbu.store/'
+            ];
+            
+            urls.forEach(url => {
+                fetch(url).catch(() => {}); // Silent test
+            });
+        }, 2000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "reality_checked": true,
+  "actual_cac": 74151.07,
+  "actual_cac_ratio": 0.167,
+  "adjusted_net_monthly": 342515.6,
+  "adjusted_net_annual": 4110187.1999999997,
+  "growth_multiple": 12.31626143517285,
+  "required_arpu_increase": 3.4894621176470593,
+  "new_timeline_months": 1.2164896041718003,
+  "critical_finding": "CAC is 3.5x higher than estimated"
+}

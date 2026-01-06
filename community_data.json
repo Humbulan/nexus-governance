@@ -1,0 +1,11 @@
+{
+  "village_nodes": 43,
+  "expansion_success": "R13,500.00",
+  "daily_volume": "R35,000",
+  "transactions": [
+    {"node": "Maniini Hub", "code": "*120*5678#", "count": 42, "volume": "R10,500", "status": "Active"},
+    {"node": "Thohoyandou-F", "code": "*120*5678#", "count": 40, "volume": "R10,000", "status": "Active"},
+    {"node": "SADC Border", "code": "*120*5678#", "count": 33, "volume": "R8,250", "status": "Active"},
+    {"node": "Vhembe District", "code": "*120*5678#", "count": 30, "volume": "R7,500", "status": "Active"}
+  ]
+}

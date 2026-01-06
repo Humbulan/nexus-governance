@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Grid • HMB Imperial</title>
+    <style>
+        body { background: #060c14; color: #e6f7ff; font-family: sans-serif; padding: 20px; text-align: center; }
+        .grid-container { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; max-width: 600px; margin: 20px auto; }
+        .node { background: rgba(19, 194, 194, 0.1); border: 1px solid #13c2c2; padding: 15px; border-radius: 5px; position: relative; }
+        .status-dot { height: 8px; width: 8px; background-color: #52c41a; border-radius: 50%; display: inline-block; position: absolute; top: 5px; right: 5px; box-shadow: 0 0 8px #52c41a; animation: blink 1.5s infinite; }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+        h1 { color: #ffd700; text-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+        .header-box { border: 1px solid #ffd700; display: inline-block; padding: 10px 30px; border-radius: 50px; margin-bottom: 20px; }
+        .stats { margin-top: 20px; color: #13c2c2; font-weight: bold; font-family: monospace; }
+        a { color: #ffd700; text-decoration: none; font-size: 0.8rem; display: block; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <a href="navigation.html">⬅️ BACK TO COMMAND CENTER</a>
+    <div class="header-box">
+        <h1>⚙️ INDUSTRIAL GRID</h1>
+        <p>Gauteng Industrial Network: 20/20 Nodes</p>
+    </div>
+
+    <div class="grid-container" id="nodeGrid">
+        </div>
+
+    <div class="stats">
+        [ POWER: 100% ] • [ IDC PARTNERSHIP: ACTIVE ] • [ STABILITY: NOMINAL ]
+    </div>
+
+    <script>
+        const grid = document.getElementById('nodeGrid');
+        for (let i = 1; i <= 20; i++) {
+            const node = document.createElement('div');
+            node.className = 'node';
+            node.innerHTML = `<span class="status-dot"></span><small>NODE</small><br><strong>G-${i < 10 ? '0' + i : i}</strong>`;
+            grid.appendChild(node);
+        }
+    </script>
+</body>
+</html>

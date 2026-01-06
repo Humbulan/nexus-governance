@@ -1,0 +1,18 @@
+nohup: ignoring input
+5 Jan 19:36:25 - [info] 
+
+Welcome to Node-RED
+===================
+
+5 Jan 19:36:25 - [info] Node-RED version: v4.1.2
+5 Jan 19:36:25 - [info] Node.js  version: v25.2.1
+5 Jan 19:36:25 - [info] Linux 5.4.289-qgki-32200428-abA736BXXSAGYJ3 arm64 LE
+5 Jan 19:36:25 - [info] Loading palette nodes
+5 Jan 19:36:28 - [info] Dashboard version 3.6.6 started at /ui
+5 Jan 19:36:28 - [info] Settings file  : /data/data/com.termux/files/home/.node-red/settings.js
+5 Jan 19:36:28 - [info] Context store  : 'default' [module=memory]
+5 Jan 19:36:28 - [info] User directory : /data/data/com.termux/files/home/.node-red
+5 Jan 19:36:28 - [warn] Projects disabled : editorTheme.projects.enabled=false
+5 Jan 19:36:28 - [info] Flows file     : /data/data/com.termux/files/home/.node-red/flows.json
+5 Jan 19:36:28 - [error] Unable to listen on http://127.0.0.1:1880/
+5 Jan 19:36:28 - [error] Error: port in use

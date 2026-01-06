@@ -1,0 +1,91 @@
+
+╔══════════════════════════════════════════════════════════════════╗
+║                HUMBU IMPERIAL SERVICE AGREEMENT                  ║
+║              OFFICIAL BUSINESS CONTRACT - HIC/2026/001           ║
+╚══════════════════════════════════════════════════════════════════╝
+
+This Agreement is made effective as of 31 December 2025
+
+BETWEEN:
+
+HUMBU IMPERIAL NEXUS
+(Hereinafter referred to as "the Provider")
+Operating as Humbu Imperial Intelligence Network
+Contact: [Your Phone Number]
+Email: [Your Email]
+USSD: *134*600#
+
+AND:
+
+TEST CLIENT
+TEST BUSINESS
+(Hereinafter referred to as "the Client")
+
+────────────────────────────────────────────────────────────────────
+1. SERVICES TO BE PROVIDED
+The Provider agrees to render the following services:
+
+TIER SELECTED: BASIC INTELLIGENCE SERVICE
+MONTHLY FEE: R1,500.00 (excluding VAT)
+
+SERVICE DETAILS:
+• Weekly Village Status Reports (Optimal/Delayed)
+• Top 5 High-Demand Villages
+• Email Delivery + USSD Access
+• Basic Bottleneck Alerts
+
+────────────────────────────────────────────────────────────────────
+2. TERM OF AGREEMENT
+This Agreement will begin on 31 December 2025 and 
+will remain in effect for 30 days. After the initial term, this 
+Agreement will automatically renew on a month-to-month basis until 
+terminated by either party with 14 days written notice.
+
+────────────────────────────────────────────────────────────────────
+3. PAYMENT TERMS
+• Activation Deposit: R750.00 (50% of first month, due upon signing)
+• Monthly Fee: R1,500.00 (due in advance on the 1st of each month)
+• Payment Methods: MTN MoMo, EFT, or Cash
+• Late Payment: Services may be suspended if payment is 7+ days late
+
+────────────────────────────────────────────────────────────────────
+4. CONFIDENTIALITY
+Both parties agree to maintain the confidentiality of all proprietary
+information shared during this Agreement. Client route data and 
+Provider village intelligence are considered confidential.
+
+────────────────────────────────────────────────────────────────────
+5. LIMITATION OF LIABILITY
+The Provider makes no warranties about the accuracy of intelligence
+reports. The Client uses the information at their own discretion.
+Maximum liability is limited to one month's service fee.
+
+────────────────────────────────────────────────────────────────────
+6. SIGNATURES
+By signing below, both parties agree to the terms outlined above.
+
+FOR THE CLIENT:
+
+Name: _________________________
+Signature: ____________________
+Date: _________________________
+Position: _____________________
+
+FOR THE PROVIDER:
+
+Name: [Your Name]
+Signature: ____________________
+Date: _________________________
+Position: Managing Director
+
+────────────────────────────────────────────────────────────────────
+7. PAYMENT DETAILS (Activate within 24 hours of deposit)
+• MTN MoMo: [Your MoMo Number] - Reference: HIC-TES-001
+• Bank: [Your Bank Name]
+• Account: [Your Account Number]
+• Branch: [Your Branch Code]
+• Reference: HIC-TES-001
+
+╔══════════════════════════════════════════════════════════════════╗
+║      DATA-DRIVEN DECISIONS • RURAL INTELLIGENCE • URBAN PROFIT   ║
+╚══════════════════════════════════════════════════════════════════╝

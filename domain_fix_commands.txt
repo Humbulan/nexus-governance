@@ -1,0 +1,52 @@
+===============================================
+URGENT: MANUAL CLOUDFLARE DNS FIX
+===============================================
+THIS IS THE ONLY WAY TO FIX MONITOR.HUMBU.STORE
+
+STEP 1: LOGIN TO CLOUDFLARE
+1. Open browser
+2. Go to: https://dash.cloudflare.com
+3. Login with your Cloudflare account
+4. Select: 'humbu.store' domain
+
+STEP 2: GO TO DNS RECORDS
+1. Click 'DNS' in left sidebar
+2. Click 'Records'
+
+STEP 3: FIND THE BAD RECORD
+Look for this EXACT record:
+• Type: CNAME
+• Name: monitor
+• Target: [SOME-OLD-TUNNEL-ID].cfargotunnel.com
+
+STEP 4: EDIT THE RECORD
+1. Click 'Edit' on that record
+2. Change 'Target' to:
+   c07a0d01-7820-49d5-ac68-36e48a6b2b94.cfargotunnel.com
+   (Exactly this text - no spaces)
+
+STEP 5: SAVE
+1. Click 'Save'
+2. Wait 2-3 minutes for DNS propagation
+
+STEP 6: TEST
+1. Open: https://monitor.humbu.store
+2. Should show your dashboard
+3. If not, wait 5 more minutes
+
+===============================================
+IF YOU CAN'T FIND THE RECORD:
+===============================================
+1. Look for ANY record with 'monitor' in name
+2. It could be Type: CNAME, A, or AAAA
+3. DELETE any monitor.* records
+4. CREATE NEW:
+   • Type: CNAME
+   • Name: monitor
+   • Target: c07a0d01-7820-49d5-ac68-36e48a6b2b94.cfargotunnel.com
+   • TTL: Auto
+   • Proxy status: Proxied (orange cloud)
+
+===============================================
+DO THIS NOW - NO ALTERNATIVES
+===============================================

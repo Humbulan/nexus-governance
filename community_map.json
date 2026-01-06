@@ -1,0 +1,1625 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THOHOYANDOU",
+        "type": "village",
+        "population": 3426,
+        "description": "Community hub in thohoyandou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4591,
+          -22.9756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MANINI",
+        "type": "village",
+        "population": 2929,
+        "description": "Community hub in manini"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4325,
+          -22.9208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SIBASA",
+        "type": "village",
+        "population": 1060,
+        "description": "Community hub in sibasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4681,
+          -22.9439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MUKHOMI",
+        "type": "village",
+        "population": 1595,
+        "description": "Community hub in mukhomi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4186,
+          -22.8767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MALAMULELE",
+        "type": "village",
+        "population": 552,
+        "description": "Community hub in malamulele"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6844,
+          -22.9847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GUNDO",
+        "type": "village",
+        "population": 1547,
+        "description": "Community hub in gundo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5083,
+          -22.8125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MAKHUVHA",
+        "type": "village",
+        "population": 3793,
+        "description": "Community hub in makhuvha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2931,
+          -23.0389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FOLOVHODWE",
+        "type": "village",
+        "population": 1422,
+        "description": "Community hub in folovhodwe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4103,
+          -23.0319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VHULAUDZI",
+        "type": "village",
+        "population": 4547,
+        "description": "Community hub in vhulaudzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.325,
+          -23.0917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SHITALE",
+        "type": "village",
+        "population": 2240,
+        "description": "Community hub in shitale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.35,
+          -22.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "repairs",
+        "type": "marketplace",
+        "price": "R393.11",
+        "quantity": "3 each",
+        "seller": "Grace Mabunda",
+        "village": "gundo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.491604007801676,
+          -22.806538181021104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "electrical",
+        "type": "marketplace",
+        "price": "R68.76",
+        "quantity": "3 each",
+        "seller": "Lerato Baloyi",
+        "village": "folovhodwe",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.41479068914632,
+          -23.026642769176064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pottery",
+        "type": "marketplace",
+        "price": "R242.19",
+        "quantity": "10 each",
+        "seller": "Lerato Baloyi",
+        "village": "folovhodwe",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.39889511363775,
+          -23.050774787311276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "tomatoes",
+        "type": "marketplace",
+        "price": "R204.31",
+        "quantity": "1 kg",
+        "seller": "Thomas Nemadodzi",
+        "village": "manini",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.434386351738016,
+          -22.937006070674542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "transport",
+        "type": "marketplace",
+        "price": "R499.82",
+        "quantity": "3 each",
+        "seller": "Lerato Baloyi",
+        "village": "folovhodwe",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.39303479853288,
+          -23.04120928873991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "eggs",
+        "type": "marketplace",
+        "price": "R51.96",
+        "quantity": "15 each",
+        "seller": "Peter Netshisaulu",
+        "village": "makhuvha",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.311030215517803,
+          -23.031768518293596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "chickens",
+        "type": "marketplace",
+        "price": "R465.42",
+        "quantity": "10 each",
+        "seller": "Maria Tshikovhi",
+        "village": "malamulele",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.691591979090102,
+          -22.981796272811348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "electrical",
+        "type": "marketplace",
+        "price": "R260.04",
+        "quantity": "1 each",
+        "seller": "Grace Mabunda",
+        "village": "gundo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.52230047212618,
+          -22.81675743608884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "mats",
+        "type": "marketplace",
+        "price": "R377.0",
+        "quantity": "17 each",
+        "seller": "Sarah Mulaudzi",
+        "village": "sibasa",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.45141442003217,
+          -22.944361790971918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "wood_carvings",
+        "type": "marketplace",
+        "price": "R425.15",
+        "quantity": "2 each",
+        "seller": "Maria Tshikovhi",
+        "village": "malamulele",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.668894817159,
+          -22.982442590932507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "plumbing",
+        "type": "marketplace",
+        "price": "R162.94",
+        "quantity": "9 each",
+        "seller": "Grace Mabunda",
+        "village": "gundo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.51066619664037,
+          -22.831514420535857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "rabbits",
+        "type": "marketplace",
+        "price": "R84.65",
+        "quantity": "17 each",
+        "seller": "David Phaswana",
+        "village": "mukhomi",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.425463847089347,
+          -22.859236555519637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "mats",
+        "type": "marketplace",
+        "price": "R232.16",
+        "quantity": "19 each",
+        "seller": "David Phaswana",
+        "village": "mukhomi",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.400040574893737,
+          -22.87269261150156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "transport",
+        "type": "marketplace",
+        "price": "R139.91",
+        "quantity": "7 each",
+        "seller": "Thomas Nemadodzi",
+        "village": "manini",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.446078056073564,
+          -22.93539780754312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "spinach",
+        "type": "marketplace",
+        "price": "R367.41",
+        "quantity": "17 kg",
+        "seller": "Thomas Nemadodzi",
+        "village": "manini",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.43024747454169,
+          -22.90309391366184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bread",
+        "type": "marketplace",
+        "price": "R336.28",
+        "quantity": "14 each",
+        "seller": "Maria Tshikovhi",
+        "village": "malamulele",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.701257933035418,
+          -22.997460935446664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pumpkin",
+        "type": "marketplace",
+        "price": "R122.5",
+        "quantity": "3 kg",
+        "seller": "James Mudau",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.454438660922037,
+          -22.985386077876473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "goats",
+        "type": "marketplace",
+        "price": "R293.86",
+        "quantity": "2 each",
+        "seller": "Peter Netshisaulu",
+        "village": "makhuvha",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.300314994231965,
+          -23.034178766399666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "rabbits",
+        "type": "marketplace",
+        "price": "R360.3",
+        "quantity": "13 each",
+        "seller": "James Mudau",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.464650064149605,
+          -22.96971463526876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "wood_carvings",
+        "type": "marketplace",
+        "price": "R153.29",
+        "quantity": "11 each",
+        "seller": "Lerato Baloyi",
+        "village": "folovhodwe",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.405812773852517,
+          -23.025993727946396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "mats",
+        "type": "marketplace",
+        "price": "R287.87",
+        "quantity": "18 each",
+        "seller": "Peter Netshisaulu",
+        "village": "makhuvha",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.299156628678517,
+          -23.048433984380065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "traditional_meals",
+        "type": "marketplace",
+        "price": "R448.92",
+        "quantity": "3 each",
+        "seller": "Thomas Nemadodzi",
+        "village": "manini",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.450037612456825,
+          -22.92887437665065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "plumbing",
+        "type": "marketplace",
+        "price": "R123.25",
+        "quantity": "7 each",
+        "seller": "Grace Mabunda",
+        "village": "gundo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.49650688908079,
+          -22.820837244386173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "plumbing",
+        "type": "marketplace",
+        "price": "R292.0",
+        "quantity": "12 each",
+        "seller": "Thomas Nemadodzi",
+        "village": "manini",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.420649676087045,
+          -22.915221740883705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "repairs",
+        "type": "marketplace",
+        "price": "R479.94",
+        "quantity": "5 each",
+        "seller": "Thomas Nemadodzi",
+        "village": "manini",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.431851337488865,
+          -22.90122863317749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pap",
+        "type": "marketplace",
+        "price": "R163.57",
+        "quantity": "12 each",
+        "seller": "Grace Mabunda",
+        "village": "gundo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.50490351357976,
+          -22.79906339052034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "eggs",
+        "type": "marketplace",
+        "price": "R163.74",
+        "quantity": "5 each",
+        "seller": "Maria Tshikovhi",
+        "village": "malamulele",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.69066786251883,
+          -23.00250686176225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bread",
+        "type": "marketplace",
+        "price": "R278.36",
+        "quantity": "9 each",
+        "seller": "Lerato Baloyi",
+        "village": "folovhodwe",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.401573865033566,
+          -23.017540377342726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "electrical",
+        "type": "marketplace",
+        "price": "R246.14",
+        "quantity": "14 each",
+        "seller": "James Mudau",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.461677778697357,
+          -22.965103661278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "goats",
+        "type": "marketplace",
+        "price": "R202.07",
+        "quantity": "17 each",
+        "seller": "James Mudau",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.469494543001662,
+          -22.975314513401994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "goats",
+        "type": "marketplace",
+        "price": "R1081.21",
+        "quantity": "9 each",
+        "seller": "Charles Muthelo",
+        "village": "lwamondo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pumpkin",
+        "type": "marketplace",
+        "price": "R410.69",
+        "quantity": "33 kg",
+        "seller": "Mary Makhado",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pottery",
+        "type": "marketplace",
+        "price": "R621.51",
+        "quantity": "2 each",
+        "seller": "Lisa Mutele",
+        "village": "folovhodwe",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "potatoes",
+        "type": "marketplace",
+        "price": "R443.8",
+        "quantity": "50 kg",
+        "seller": "Peter Mavhungu",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "honey",
+        "type": "marketplace",
+        "price": "R322.26",
+        "quantity": "2 each",
+        "seller": "Sandra Tshikovhi",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "catering",
+        "type": "marketplace",
+        "price": "R263.72",
+        "quantity": "1 service",
+        "seller": "Patricia Tshililo",
+        "village": "lwamondo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "maize",
+        "type": "marketplace",
+        "price": "R329.02",
+        "quantity": "42 kg",
+        "seller": "Patricia Netshisaulu",
+        "village": "mukhomi",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "repairs",
+        "type": "marketplace",
+        "price": "R164.92",
+        "quantity": "1 service",
+        "seller": "Lerato Mudau",
+        "village": "malamulele",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "clothing",
+        "type": "marketplace",
+        "price": "R949.49",
+        "quantity": "5 each",
+        "seller": "Sarah Mulaudzi",
+        "village": "sibasa",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pumpkin",
+        "type": "marketplace",
+        "price": "R157.58",
+        "quantity": "25 kg",
+        "seller": "Charles Makuya",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "carrots",
+        "type": "marketplace",
+        "price": "R74.48",
+        "quantity": "34 kg",
+        "seller": "Daniel Mphaphuli",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cabbage",
+        "type": "marketplace",
+        "price": "R60.22",
+        "quantity": "25 kg",
+        "seller": "Sandra Mavhungu",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "chickens",
+        "type": "marketplace",
+        "price": "R336.22",
+        "quantity": "5 each",
+        "seller": "Lerato Mutele",
+        "village": "sibasa",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pottery",
+        "type": "marketplace",
+        "price": "R759.17",
+        "quantity": "3 each",
+        "seller": "Barbara Nemadodzi",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "eggs",
+        "type": "marketplace",
+        "price": "R1699.56",
+        "quantity": "5 each",
+        "seller": "Mark Muthelo",
+        "village": "malamulele",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "preserves",
+        "type": "marketplace",
+        "price": "R329.94",
+        "quantity": "1 service",
+        "seller": "Daniel Mavhungu",
+        "village": "thohoyandou",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "chickens",
+        "type": "marketplace",
+        "price": "R516.83",
+        "quantity": "8 each",
+        "seller": "Paul Mathidi",
+        "village": "malamulele",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "goats",
+        "type": "marketplace",
+        "price": "R129.79",
+        "quantity": "6 each",
+        "seller": "Nancy Nethengwe",
+        "village": "lwamondo",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "carrots",
+        "type": "marketplace",
+        "price": "R370.78",
+        "quantity": "25 kg",
+        "seller": "Peter Tshamano",
+        "village": "tshilapfa",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "preserves",
+        "type": "marketplace",
+        "price": "R53.74",
+        "quantity": "1 service",
+        "seller": "Maria Mudau",
+        "village": "mukula",
+        "icon": "market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Local survey",
+        "type": "task",
+        "reward": "R200.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.46328655269603,
+          -22.952556494767357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crop monitoring",
+        "type": "task",
+        "reward": "R80.0",
+        "category": "agriculture",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.462584790163064,
+          -22.966710885197276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Local survey",
+        "type": "task",
+        "reward": "R200.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.466163008547273,
+          -22.947023286564008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Water leak reporting",
+        "type": "task",
+        "reward": "R50.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.508767374273546,
+          -22.813381352758412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Local survey",
+        "type": "task",
+        "reward": "R200.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.289810956014033,
+          -23.043660385248693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.67929026112652,
+          -22.989121710477768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delivery assistance",
+        "type": "task",
+        "reward": "R100.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.45001041448837,
+          -22.98072854914331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.458613235525654,
+          -22.944075792588563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delivery assistance",
+        "type": "task",
+        "reward": "R100.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.510858200529167,
+          -22.804788879183466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Water leak reporting",
+        "type": "task",
+        "reward": "R50.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.435262025106173,
+          -22.9172013399548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Water leak reporting",
+        "type": "task",
+        "reward": "R50.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.453358824362798,
+          -22.973217126112367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crop monitoring",
+        "type": "task",
+        "reward": "R80.0",
+        "category": "agriculture",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.431869847880773,
+          -22.92910860103299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crop monitoring",
+        "type": "task",
+        "reward": "R80.0",
+        "category": "agriculture",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.453876873552524,
+          -22.97563876577653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Water leak reporting",
+        "type": "task",
+        "reward": "R50.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.283538857422975,
+          -23.037734923152982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Local survey",
+        "type": "task",
+        "reward": "R200.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.473530464406018,
+          -22.95242319866775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.433560486365746,
+          -22.926072902061982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crop monitoring",
+        "type": "task",
+        "reward": "R80.0",
+        "category": "agriculture",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.410803223216288,
+          -23.036136735255756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.41933184625093,
+          -23.039972886324186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crop monitoring",
+        "type": "task",
+        "reward": "R80.0",
+        "category": "agriculture",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.413652936629997,
+          -23.039214218893548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delivery assistance",
+        "type": "task",
+        "reward": "R100.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.326456611131796,
+          -23.082923986363177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Water leak reporting",
+        "type": "task",
+        "reward": "R50.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.685744285573634,
+          -22.99124818633045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delivery assistance",
+        "type": "task",
+        "reward": "R100.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.29871409084781,
+          -23.034715063076188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.437935127151807,
+          -22.91763995421517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Water leak reporting",
+        "type": "task",
+        "reward": "R50.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.424444024545284,
+          -22.86914888451937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.46581189525227,
+          -22.93906798283256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.683892449380643,
+          -22.982174045102095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Local survey",
+        "type": "task",
+        "reward": "R200.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.32347274942079,
+          -23.082737218788456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street cleaning",
+        "type": "task",
+        "reward": "R150.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.687724882620426,
+          -22.98642605180955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delivery assistance",
+        "type": "task",
+        "reward": "R100.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.421076245233845,
+          -22.880200190788738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delivery assistance",
+        "type": "task",
+        "reward": "R100.0",
+        "category": "services",
+        "icon": "task"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.466617731776175,
+          -22.94814804213852
+        ]
+      }
+    }
+  ]
+}

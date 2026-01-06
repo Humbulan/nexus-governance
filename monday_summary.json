@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-01-01T10:53:10.511300",
+  "total_nodes": 20,
+  "active_nodes": 20,
+  "total_revenue": 2852669,
+  "monthly_flow": 237722.41666666666,
+  "target_flow": 595238.1,
+  "capacity_percent": 39.937365680501074,
+  "surge_ready": false
+}

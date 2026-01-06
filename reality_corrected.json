@@ -1,0 +1,13 @@
+{
+  "corrected": true,
+  "actual_cac": 74151.07,
+  "actual_net_monthly": 342515.6,
+  "actual_net_annual": 4110187.1999999997,
+  "months_to_5m_net": 14.597875250061604,
+  "required_cac_for_12mo": 0.0033333332976326346,
+  "cac_reduction_needed_pct": 99.99999550467268,
+  "optimal_monthly_net": 416666.6666666667,
+  "optimal_cac_target": 125000.00099999999,
+  "optimal_revenue_needed": 595238.0952380953,
+  "critical_insight": "R5M target is NET profit, timeline depends on CAC reduction"
+}

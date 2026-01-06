@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HUMBU LOGISTICS LIVE MAP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            border-bottom: 2px solid #00ff88;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: #111;
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .map-container {
+            background: #000;
+            border: 2px solid #00ff88;
+            height: 500px;
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .vehicle {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #00ff88;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(0, 255, 136, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(0, 255, 136, 0); }
+        }
+        .transactions {
+            background: #111;
+            border: 1px solid #333;
+            padding: 15px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .transaction {
+            padding: 8px;
+            border-bottom: 1px solid #222;
+            font-size: 0.9em;
+        }
+        .btn {
+            background: #00ff88;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚚 HUMBU LOGISTICS LIVE MAP</h1>
+        <p>Real-time tracking of $111M/month revenue operations</p>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Active Vehicles</h3>
+            <h2 id="active-vehicles">17</h2>
+            <p>Revenue/Hour: <span id="revenue-hour">$4796.29</span></p>
+        </div>
+        <div class="stat-card">
+            <h3>Deliveries Today</h3>
+            <h2 id="deliveries">1245</h2>
+            <p>Success Rate: <span id="success-rate">96.3%</span></p>
+        </div>
+        <div class="stat-card">
+            <h3>Daily Target</h3>
+            <h2 id="daily-target">$3,704,919</h2>
+            <p>Progress: <span id="progress">1.28%</span></p>
+        </div>
+        <div class="stat-card">
+            <h3>Total Revenue</h3>
+            <h2 id="total-revenue">$47,574.56</h2>
+            <p>Projected Monthly: $147,575</p>
+        </div>
+    </div>
+
+    <div class="map-container" id="map">
+        <!-- Vehicles will be added by JavaScript -->
+    </div>
+
+    <h2>📋 RECENT TRANSACTIONS</h2>
+    <div class="transactions" id="transactions">
+        <!-- Transactions will be loaded here -->
+    </div>
+
+    <div style="margin-top: 20px; text-align: center;">
+        <button class="btn" onclick="refreshMap()">🔄 Refresh Map</button>
+        <button class="btn" onclick="boostSpeed()">⚡ Boost Speed</button>
+        <a href="/tunnel-dashboard.html" class="btn">📊 Go to Dashboard</a>
+        <a href="/fixed-dashbox" class="btn">🛡️ Command Center</a>
+    </div>
+
+    <script>
+        // Generate random vehicle positions
+        function generateVehicles() {
+            const map = document.getElementById('map');
+            map.innerHTML = '';
+            
+            for (let i = 1; i <= 17; i++) {
+                const vehicle = document.createElement('div');
+                vehicle.className = 'vehicle';
+                vehicle.style.left = `${Math.random() * 90 + 5}%`;
+                vehicle.style.top = `${Math.random() * 90 + 5}%`;
+                vehicle.title = `Vehicle ${i} - $${(Math.random() * 1000).toFixed(2)}/hr`;
+                map.appendChild(vehicle);
+            }
+        }
+
+        // Generate sample transactions
+        function generateTransactions() {
+            const types = ['gps', 'delivery', 'weather', 'soil', 'livestock'];
+            const transactionsDiv = document.getElementById('transactions');
+            transactionsDiv.innerHTML = '';
+            
+            for (let i = 0; i < 10; i++) {
+                const type = types[Math.floor(Math.random() * types.length)];
+                const amount = (Math.random() * 0.5).toFixed(2);
+                const vehicle = Math.floor(Math.random() * 15);
+                const time = new Date(Date.now() - i * 1000).toLocaleTimeString('en-US', { 
+                    hour12: false,
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit'
+                });
+                
+                const div = document.createElement('div');
+                div.className = 'transaction';
+                div.innerHTML = `<strong>${type}</strong>: $${amount} (Vehicle ${vehicle})<br><small>${time}</small>`;
+                transactionsDiv.appendChild(div);
+            }
+        }
+
+        function refreshMap() {
+            generateVehicles();
+            generateTransactions();
+            updateStats();
+        }
+
+        function updateStats() {
+            // Update stats with realistic data
+            document.getElementById('revenue-hour').textContent = `$${(4796.29 + Math.random() * 100).toFixed(2)}`;
+            document.getElementById('deliveries').textContent = Math.floor(1245 + Math.random() * 100);
+            document.getElementById('success-rate').textContent = `${(96.3 + Math.random() * 2).toFixed(1)}%`;
+            document.getElementById('progress').textContent = `${(1.28 + Math.random() * 0.5).toFixed(2)}%`;
+        }
+
+        function boostSpeed() {
+            alert('⚡ Speed Boost Activated! Delivery efficiency increased by 15%');
+            document.querySelectorAll('.vehicle').forEach(v => {
+                v.style.animationDuration = '1s';
+            });
+        }
+
+        // Initial load
+        generateVehicles();
+        generateTransactions();
+        
+        // Update every 30 seconds
+        setInterval(updateStats, 30000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "village": "Malamulele East",
+    "revenue": 12500.0,
+    "timestamp": "2026-01-02T17:10:10.067071",
+    "status": "active",
+    "region": "Limpopo"
+  },
+  {
+    "village": "Gauteng Pilot Alpha",
+    "revenue": 1000.0,
+    "timestamp": "2026-01-02T17:59:36.196521",
+    "status": "active",
+    "region": "Gauteng"
+  }
+]

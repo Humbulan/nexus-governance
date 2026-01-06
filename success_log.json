@@ -1,0 +1,36 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Test Client",
+      "business": "Test Business",
+      "tier": "Basic",
+      "monthly_fee": 1500,
+      "deposit_paid": true,
+      "deposit_amount": 750.0,
+      "signed_date": "2025-12-31T20:26:16.487736",
+      "status": "active"
+    }
+  ],
+  "total_revenue": 2250.0,
+  "total_deposits": 750.0,
+  "monthly_recurring": 1500,
+  "target_5m_progress": 0.36,
+  "food_coverage": {
+    "groceries": 2500,
+    "data_airtime": 500,
+    "family_support": 4000,
+    "total_needed": 7000
+  },
+  "log_entries": [
+    {
+      "timestamp": "2025-12-31T20:26:16.487768",
+      "action": "client_signed",
+      "client": "Test Client",
+      "business": "Test Business",
+      "tier": "Basic",
+      "monthly_fee": 1500,
+      "deposit_paid": true
+    }
+  ]
+}{"timestamp": "2026-01-04 08:47:12", "event": "REVENUE SURGE", "amount": 12500, "location": "Maniini Hub Node", "status": "SETTLED"}

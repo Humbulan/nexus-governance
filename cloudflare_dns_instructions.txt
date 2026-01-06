@@ -1,0 +1,36 @@
+============================================
+MANUAL CLOUDFLARE DNS SETUP FOR MONITOR.HUMBU.STORE
+============================================
+REQUIRED: Access to Cloudflare Dashboard (cloudflare.com)
+
+STEP 1: GET YOUR TUNNEL ID
+Run in Termux: cloudflared tunnel list
+Look for: humbu-imperial | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+Copy the Tunnel ID.
+
+STEP 2: LOGIN TO CLOUDFLARE
+1. Go to: https://dash.cloudflare.com
+2. Select: humbu.store domain
+3. Go to: DNS → Records
+
+STEP 3: ADD CNAME RECORD
+Type: CNAME
+Name: monitor
+Target: [TUNNEL_ID].cfargotunnel.com
+  Example: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.cfargotunnel.com
+TTL: Auto
+Proxy status: Proxied (orange cloud)
+
+STEP 4: VERIFY
+1. Wait 2-3 minutes for DNS propagation
+2. Test: monitor.humbu.store
+3. Should show your legacy navigation hub
+
+STEP 5: TROUBLESHOOTING
+If still Error 1033:
+1. Ensure tunnel is running: cloudflared tunnel run humbu-imperial
+2. Check tunnel logs: tail -f ~/logs/tunnel_monitor.log
+3. Verify local server: http://localhost:8088 works
+
+YOUR TUNNEL ID: [RUN 'cloudflared tunnel list' TO GET THIS]
+============================================

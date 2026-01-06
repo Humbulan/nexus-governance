@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-01-03 18:46:14",
+  "all_ready": false,
+  "results": [
+    {
+      "component": "\ud83c\udf10 Cloudflare Tunnel",
+      "current": 1,
+      "required": 1,
+      "capacity": "100.0%",
+      "status": "\u2705",
+      "ready": true
+    },
+    {
+      "component": "\ud83c\udfdb\ufe0f Gauteng Power Grid",
+      "current": 1,
+      "required": 20,
+      "capacity": "5.0%",
+      "status": "\u274c",
+      "ready": false
+    },
+    {
+      "component": "\ud83d\udcf1 USSD Gateway",
+      "current": 1,
+      "required": 1,
+      "capacity": "100.0%",
+      "status": "\u2705",
+      "ready": true
+    },
+    {
+      "component": "\ud83d\udcc4 Board Reports",
+      "current": 1,
+      "required": 5,
+      "capacity": "20.0%",
+      "status": "\u274c",
+      "ready": false
+    },
+    {
+      "component": "\ud83d\udcb0 Contract Ledger",
+      "current": 2,
+      "required": 1,
+      "capacity": "200.0%",
+      "status": "\u2705",
+      "ready": true
+    },
+    {
+      "component": "\ud83d\udea8 Hard-Trigger",
+      "current": 1,
+      "required": 5,
+      "capacity": "20.0%",
+      "status": "\u274c",
+      "ready": false
+    }
+  ],
+  "recommendations": "Needs preparation",
+  "genesis_hash": "88f7a825...",
+  "reality_certified": true
+}

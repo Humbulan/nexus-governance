@@ -1,0 +1,29 @@
+{
+  "SANDTON TECH": {
+    "current": 190400.0,
+    "target": 250000.0,
+    "type": "Enterprise AI",
+    "strategy": "Accelerate for R250k Milestone",
+    "weekly_growth": 12500.0,
+    "virtual_capacity": 20,
+    "surge_ready": true
+  },
+  "MIDRAND LOGISTICS": {
+    "current": 124200.0,
+    "target": 200000.0,
+    "type": "Bulk Logistics",
+    "strategy": "Link to Village Delivery Ranks",
+    "weekly_growth": 8500.0,
+    "virtual_capacity": 20,
+    "surge_ready": true
+  },
+  "KEMPTON MANUFACTURING": {
+    "current": 98130.15,
+    "target": 150000.0,
+    "type": "Predictive Manufacturing",
+    "strategy": "Stability for Industrial Backing",
+    "weekly_growth": 7200.0,
+    "virtual_capacity": 20,
+    "surge_ready": true
+  }
+}

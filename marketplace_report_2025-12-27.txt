@@ -1,0 +1,7 @@
+category     listings  avg_price  total_value
+-----------  --------  ---------  -----------
+agriculture  100       262.63     666024.44  
+livestock    86        967.35     450717.68  
+handicrafts  76        524.6      142395.23  
+services     37        303.37     24362.04   
+food         39        303.54     21133.74   

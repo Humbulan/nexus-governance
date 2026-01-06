@@ -1,0 +1,13 @@
+nohup: ignoring input
+Humbu Monitor Bridge Active on Port 8090...
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/humbu_community_nexus/monitor_system/api_monitor.py", line 31, in <module>
+    HTTPServer(('0.0.0.0', 8090), MonitorHandler).serve_forever()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use

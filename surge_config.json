@@ -1,0 +1,14 @@
+{
+  "surge_mode": "ACTIVE",
+  "capacity_level": "200%",
+  "gauteng_nodes": 20,
+  "board_reports": 5,
+  "hard_triggers": 5,
+  "ussd_gateways": 1,
+  "cloudflare_tunnels": 1,
+  "boosted_at": "$(date '+%Y-%m-%d %H:%M:%S')",
+  "ready_for_monday": true,
+  "financial_flow_target": 595238.10,
+  "cac_reduction_target": 0.25,
+  "genesis_hash": "88f7a825..."
+}

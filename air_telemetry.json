@@ -1,0 +1,50 @@
+[
+  {
+    "flight_id": "HMB-AIR-01",
+    "call_sign": "HUMBU-ALPHA",
+    "route": "THY (Thohoyandou) \u2192 HRE (Harare)",
+    "cargo_value": 125000,
+    "cargo_type": "Herbal Exports / Agricultural",
+    "status": "In Flight",
+    "altitude_ft": 31796,
+    "ground_speed_kts": 475,
+    "eta_minutes": 5,
+    "fuel_efficiency": "99.2%",
+    "enquiry_ref": "#4000120009",
+    "sector": "SADC Air Transport",
+    "last_update": "2026-01-04 14:48:03",
+    "timestamp": "14:48:03"
+  },
+  {
+    "flight_id": "HMB-AIR-02",
+    "call_sign": "HUMBU-BRAVO",
+    "route": "HRE (Harare) \u2192 JNB (Johannesburg)",
+    "cargo_value": 98000,
+    "cargo_type": "Processed Goods",
+    "status": "Scheduled",
+    "altitude_ft": 0,
+    "ground_speed_kts": 0,
+    "eta_minutes": 120,
+    "fuel_efficiency": "98.7%",
+    "enquiry_ref": "#4000120009",
+    "sector": "SADC Air Transport",
+    "last_update": "2026-01-04 14:48:03",
+    "timestamp": "14:48:03"
+  },
+  {
+    "flight_id": "HMB-GOV-01",
+    "call_sign": "IDC-OBSERVER",
+    "route": "PRY (Pretoria) \u2192 THY (Thohoyandou)",
+    "cargo_value": 0,
+    "cargo_type": "Committee Transport",
+    "status": "Approaching",
+    "altitude_ft": 10120,
+    "ground_speed_kts": 345,
+    "eta_minutes": 1,
+    "fuel_efficiency": "97.5%",
+    "enquiry_ref": "IDC-VERIFICATION",
+    "sector": "Government Liaison",
+    "last_update": "2026-01-04 14:48:03",
+    "timestamp": "14:48:03"
+  }
+]

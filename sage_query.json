@@ -1,0 +1,67 @@
+{
+  "current_state": {
+    "industrial_yield": 412730.15,
+    "village_network": {
+      "active_nodes": 43,
+      "daily_volume": 35000,
+      "expansion_success": 13500,
+      "ussd_gateway": "*120*5678#"
+    },
+    "air_transport": {
+      "active_flights": 3,
+      "total_cargo": 223000,
+      "flights": [
+        {
+          "flight_id": "HMB-AIR-01",
+          "call_sign": "HUMBU-ALPHA",
+          "route": "THY (Thohoyandou) \u2192 HRE (Harare)",
+          "cargo_value": 125000,
+          "cargo_type": "Herbal Exports / Agricultural",
+          "status": "In Flight",
+          "altitude_ft": 31938,
+          "ground_speed_kts": 479,
+          "eta_minutes": 5,
+          "fuel_efficiency": "99.2%",
+          "enquiry_ref": "#4000120009",
+          "sector": "SADC Air Transport",
+          "last_update": "2026-01-04 14:25:22",
+          "timestamp": "14:25:22"
+        },
+        {
+          "flight_id": "HMB-AIR-02",
+          "call_sign": "HUMBU-BRAVO",
+          "route": "HRE (Harare) \u2192 JNB (Johannesburg)",
+          "cargo_value": 98000,
+          "cargo_type": "Processed Goods",
+          "status": "Scheduled",
+          "altitude_ft": 0,
+          "ground_speed_kts": 0,
+          "eta_minutes": 120,
+          "fuel_efficiency": "98.7%",
+          "enquiry_ref": "#4000120009",
+          "sector": "SADC Air Transport",
+          "last_update": "2026-01-04 14:25:22",
+          "timestamp": "14:25:22"
+        },
+        {
+          "flight_id": "HMB-GOV-01",
+          "call_sign": "IDC-OBSERVER",
+          "route": "PRY (Pretoria) \u2192 THY (Thohoyandou)",
+          "cargo_value": 0,
+          "cargo_type": "Committee Transport",
+          "status": "Approaching",
+          "altitude_ft": 16975,
+          "ground_speed_kts": 339,
+          "eta_minutes": 1,
+          "fuel_efficiency": "97.5%",
+          "enquiry_ref": "IDC-VERIFICATION",
+          "sector": "Government Liaison",
+          "last_update": "2026-01-04 14:25:22",
+          "timestamp": "14:25:22"
+        }
+      ]
+    },
+    "financial_capacity": 595238.1
+  },
+  "prompt": "Generate predictive growth insights"
+}

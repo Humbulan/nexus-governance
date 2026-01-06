@@ -1,0 +1,19 @@
+{
+  "backup_date": "2026-01-01T04:00:00.560886",
+  "week_number": 1,
+  "year": 2026,
+  "statistics": {
+    "weekly_transactions": 133,
+    "weekly_value": 6687.339759249312,
+    "total_villages": 40,
+    "total_marketplace_items": 1928,
+    "new_items_this_week": 0,
+    "new_transactions_this_week": 133
+  },
+  "backup_files": {
+    "database": "weekly_backups/2026_week_1/community_nexus_20260101_040000.db",
+    "sql_dump": "weekly_backups/2026_week_1/community_nexus_20260101_040000.sql",
+    "transactions_json": "weekly_backups/2026_week_1/transactions_20260101_040000.json",
+    "marketplace_json": "weekly_backups/2026_week_1/marketplace_20260101_040000.json"
+  }
+}

@@ -1,0 +1,7 @@
+Node_ID,Location,Status,Sector,Net_Daily_Revenue,Compliance_Score
+01-THY,Thohoyandou_Main,Online,Agro-Processing,R12500,100%
+02-THY,Thohoyandou_East,Online,Cold-Chain,R8500,100%
+03-SIB,Sibasa_Hub,Online,USSD_Aggregation,R4200,98.4%
+...[40 Nodes summarized]...
+44-NXS,Nexus_Command,Online,Infrastructure,N/A,100%
+TOTAL_CLUSTER,Thohoyandou_Nexus,100%_ACTIVE,Multi-Sector,R342515.60_Monthly,99.8%

@@ -1,0 +1,9 @@
+{
+  "total_flights": 3,
+  "active_flights": 2,
+  "total_cargo_value": 223000,
+  "primary_cargo": 125000,
+  "aviation_status": "Operational",
+  "enquiry_ref": "#4000120009",
+  "last_update": "14:48:03"
+}

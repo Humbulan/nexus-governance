@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>💰 Humbu Revenue Intelligence</title>
+    <style>
+        body { font-family: 'Courier New', monospace; background: #000; color: #0f0; margin: 20px; }
+        .dashboard { max-width: 1200px; margin: 0 auto; }
+        .card { background: #111; border: 1px solid #0f0; padding: 20px; margin: 10px; border-radius: 5px; }
+        .stat { font-size: 24px; color: gold; }
+        .live { animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>💰 HUMBU REVENUE DASHBOARD</h1>
+        <p class="live">🟢 LIVE DATA STREAMING</p>
+        
+        <div class="card">
+            <h2>📊 TODAY'S REAL-TIME STATS</h2>
+            <div id="currentStats">Loading...</div>
+        </div>
+        
+        <div class="card">
+            <h2>📈 PROJECTIONS & TARGETS</h2>
+            <div id="projections">Loading...</div>
+        </div>
+        
+        <div class="card">
+            <h2>🚀 QUICK ACTIONS</h2>
+            <p>
+                <button onclick="generateRevenue()">Generate R8.50 Transaction</button>
+                <button onclick="checkGateway()">Check Gateway Status</button>
+                <button onclick="runReport()">Run Daily Report</button>
+            </p>
+            <div id="actionResult"></div>
+        </div>
+    </div>
+
+    <script>
+        async function loadRevenueData() {
+            try {
+                const response = await fetch('http://localhost:8083/');
+                const data = await response.json();
+                
+                // Current stats
+                document.getElementById('currentStats').innerHTML = `
+                    <p class="stat">💸 Revenue Today: R${data.revenue_today || 0}</p>
+                    <p>📝 Transactions: ${data.transactions_today || 0}</p>
+                    <p>📊 Avg/TX: R${data.revenue_today && data.transactions_today ? (data.revenue_today/data.transactions_today).toFixed(2) : '0'}</p>
+                    <p>🕐 Uptime: ${data.uptime || '100%'}</p>
+                `;
+                
+                // Projections
+                const monthly = (data.revenue_today || 0) * 30;
+                const progress = Math.min(100, (monthly / 1000000) * 100).toFixed(1);
+                
+                document.getElementById('projections').innerHTML = `
+                    <p class="stat">🎯 Monthly Projection: R${monthly.toLocaleString()}</p>
+                    <p>📅 Daily Projection: R${((data.revenue_today || 0) * 1.2).toFixed(2)}</p>
+                    <p>📅 Weekly Projection: R${((data.revenue_today || 0) * 7).toLocaleString()}</p>
+                    <p>🏆 Target Progress: ${progress}% of R1,000,000</p>
+                    <div style="background: #333; height: 20px; width: 100%; border-radius: 10px;">
+                        <div style="background: gold; height: 100%; width: ${progress}%; border-radius: 10px;"></div>
+                    </div>
+                `;
+                
+            } catch (error) {
+                document.getElementById('currentStats').innerHTML = 
+                    '<p style="color:red;">❌ Gateway offline. Start it with: python3 working_gateway.py</p>';
+            }
+        }
+        
+        function generateRevenue() {
+            fetch('http://localhost:8083/', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({type: 'delivery_status'})
+            })
+            .then(r => r.json())
+            .then(data => {
+                document.getElementById('actionResult').innerHTML = 
+                    `<p style="color:lime;">✅ ${data.message || 'Transaction complete!'}</p>`;
+                loadRevenueData(); // Refresh
+            })
+            .catch(e => {
+                document.getElementById('actionResult').innerHTML = 
+                    `<p style="color:red;">❌ Error: ${e.message}</p>`;
+            });
+        }
+        
+        function checkGateway() {
+            loadRevenueData();
+            document.getElementById('actionResult').innerHTML = 
+                '<p style="color:cyan;">🔄 Checking gateway...</p>';
+        }
+        
+        function runReport() {
+            fetch('/daily_revenue_report.sh')
+            .then(() => {
+                document.getElementById('actionResult').innerHTML = 
+                    '<p style="color:lime;">✅ Daily report generated!</p>';
+            });
+        }
+        
+        // Load data immediately and every 30 seconds
+        loadRevenueData();
+        setInterval(loadRevenueData, 30000);
+    </script>
+</body>
+</html>

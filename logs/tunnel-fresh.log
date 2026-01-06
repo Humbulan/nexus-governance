@@ -1,0 +1,68 @@
+nohup: ignoring input
+2026-01-04T19:55:28Z INF Starting tunnel tunnelID=c07a0d01-7820-49d5-ac68-36e48a6b2b94
+2026-01-04T19:55:28Z INF Version 2025.11.1 (Checksum 065b2bea7d0de41154d2c9d52e90bea8b88b6fc4773796df6565fac7c8dea373)
+2026-01-04T19:55:28Z INF GOOS: android, GOVersion: go1.25.3, GoArch: arm64
+2026-01-04T19:55:28Z INF Settings: map[config:/data/data/com.termux/files/home/.cloudflared/fresh-config.yml cred-file:/data/data/com.termux/files/home/.cloudflared/c07a0d01-7820-49d5-ac68-36e48a6b2b94.json credentials-file:/data/data/com.termux/files/home/.cloudflared/c07a0d01-7820-49d5-ac68-36e48a6b2b94.json]
+2026-01-04T19:55:28Z INF Autoupdate frequency is set autoupdateFreq=86400000
+2026-01-04T19:55:28Z INF Generated Connector ID: e67589d2-c297-40af-9929-b6b84a6e5c4a
+2026-01-04T19:55:28Z INF Initial protocol quic
+2026-01-04T19:55:28Z INF ICMP proxy will use 100.107.21.19 as source for IPv4
+2026-01-04T19:55:28Z INF ICMP proxy will use :: as source for IPv6
+2026-01-04T19:55:28Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
+2026-01-04T19:55:28Z INF ICMP proxy will use 100.107.21.19 as source for IPv4
+2026-01-04T19:55:28Z INF ICMP proxy will use :: as source for IPv6
+2026-01-04T19:55:28Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-01-04T19:55:29Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-01-04T19:55:29Z INF Registered tunnel connection connIndex=0 connection=3ef1d494-65e3-4662-b12c-1e9831bac98a event=0 ip=198.41.200.233 location=jnb01 protocol=quic
+2026-01-04T19:55:29Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=1 event=0 ip=198.41.192.37
+2026-01-04T19:55:30Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:31Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:34Z ERR unable to send local configuration error="context deadline exceeded"
+2026-01-04T19:55:36Z INF Registered tunnel connection connIndex=1 connection=debcd173-5846-48ba-a004-f478dfe8a9eb event=0 ip=198.41.192.37 location=cpt01 protocol=quic
+2026-01-04T19:55:40Z ERR failed to run the datagram handler error="context canceled" connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:40Z WRN failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:40Z WRN Serve tunnel error error="control stream encountered a failure while serving" connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:40Z INF Retrying connection in up to 2s connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:40Z WRN Connection terminated error="control stream encountered a failure while serving" connIndex=2
+2026-01-04T19:55:41Z ERR failed to run the datagram handler error="context canceled" connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:41Z WRN failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:41Z WRN Serve tunnel error error="control stream encountered a failure while serving" connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:41Z INF Retrying connection in up to 2s connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:42Z WRN Connection terminated error="control stream encountered a failure while serving" connIndex=3
+2026-01-04T19:55:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:53Z WRN Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:53Z INF Retrying connection in up to 4s connIndex=2 event=0 ip=198.41.192.47
+2026-01-04T19:55:53Z WRN Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:53Z INF Retrying connection in up to 4s connIndex=3 event=0 ip=198.41.200.23
+2026-01-04T19:55:56Z WRN Connection terminated error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=2
+2026-01-04T19:55:57Z WRN Connection terminated error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=3
+2026-01-04T19:56:11Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=3 event=0 ip=198.41.200.63
+2026-01-04T19:56:11Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=2 event=0 ip=198.41.192.7
+2026-01-04T19:56:12Z INF Registered tunnel connection connIndex=2 connection=7600aac7-dc52-4c36-80bf-dd4c067508b8 event=0 ip=198.41.192.7 location=cpt01 protocol=quic
+2026-01-04T19:56:14Z INF Registered tunnel connection connIndex=3 connection=06f977c8-0c25-4770-94c8-dadd2d254a76 event=0 ip=198.41.200.63 location=jnb04 protocol=quic
+2026-01-04T19:56:48Z INF Initiating graceful shutdown due to signal terminated ...
+2026-01-04T19:56:48Z ERR failed to run the datagram handler error="Application error 0x0 (remote)" connIndex=3 event=0 ip=198.41.200.63
+2026-01-04T19:56:48Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=3 event=0 ip=198.41.200.63
+2026-01-04T19:56:48Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=3 event=0 ip=198.41.200.63
+2026-01-04T19:56:48Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.63
+2026-01-04T19:56:48Z ERR Connection terminated connIndex=3
+2026-01-04T19:56:48Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.200.233
+2026-01-04T19:56:48Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.233
+2026-01-04T19:56:48Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.233
+2026-01-04T19:56:48Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.233
+2026-01-04T19:56:48Z ERR Connection terminated connIndex=0
+2026-01-04T19:56:48Z ERR failed to run the datagram handler error="context canceled" connIndex=1 event=0 ip=198.41.192.37
+2026-01-04T19:56:48Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=1 event=0 ip=198.41.192.37
+2026-01-04T19:56:48Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=1 event=0 ip=198.41.192.37
+2026-01-04T19:56:48Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.192.37
+2026-01-04T19:56:48Z ERR Connection terminated connIndex=1
+2026-01-04T19:56:48Z ERR failed to run the datagram handler error="context canceled" connIndex=2 event=0 ip=198.41.192.7
+2026-01-04T19:56:48Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=2 event=0 ip=198.41.192.7
+2026-01-04T19:56:48Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=2 event=0 ip=198.41.192.7
+2026-01-04T19:56:48Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.7
+2026-01-04T19:56:48Z ERR Connection terminated connIndex=2
+2026-01-04T19:56:48Z ERR no more connections active and exiting
+2026-01-04T19:56:48Z INF Tunnel server stopped
+2026-01-04T19:56:48Z ERR icmp router terminated error="context canceled"
+2026-01-04T19:56:48Z INF Metrics server stopped
