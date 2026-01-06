@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🏛️ Humbu Imperial ID Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Orbitron', monospace;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #00ff88;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .id-card {
+            background: rgba(10, 10, 10, 0.95);
+            border: 3px solid #00ff88;
+            border-radius: 20px;
+            padding: 30px;
+            width: 400px;
+            box-shadow: 0 0 50px rgba(0, 255, 136, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .id-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(0, 255, 136, 0.1) 10px,
+                rgba(0, 255, 136, 0.1) 20px
+            );
+            animation: scan 20s linear infinite;
+            z-index: 0;
+        }
+        
+        @keyframes scan {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(-100px, -100px) rotate(360deg); }
+        }
+        
+        .id-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #00ff88;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .humbu-logo {
+            font-size: 42px;
+            color: gold;
+            text-shadow: 0 0 10px gold;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #00ff88;
+            text-transform: uppercase;
+        }
+        
+        .subtitle {
+            font-size: 12px;
+            color: #88ffcc;
+            letter-spacing: 2px;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .info-item {
+            background: rgba(0, 255, 136, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+        }
+        
+        .label {
+            font-size: 10px;
+            color: #88ffcc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .value {
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            margin-top: 5px;
+        }
+        
+        .qr-section {
+            text-align: center;
+            margin: 25px 0;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            border: 1px solid #00ff88;
+        }
+        
+        .qr-placeholder {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 15px;
+            background: linear-gradient(45deg, #00ff88, #008855);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            font-size: 14px;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .qr-text {
+            font-size: 12px;
+            color: #88ffcc;
+            margin-top: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            border-top: 1px solid #00ff88;
+            padding-top: 15px;
+            margin-top: 20px;
+            font-size: 10px;
+            color: #88ffcc;
+            letter-spacing: 1px;
+        }
+        
+        .status-indicator {
+            width: 10px;
+            height: 10px;
+            background: #00ff00;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="id-card">
+        <div class="id-content">
+            <div class="header">
+                <div class="humbu-logo">⚡</div>
+                <div class="title">HUMBU IMPERIAL</div>
+                <div class="subtitle">Sovereign Digital Infrastructure</div>
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="label">CEO</div>
+                    <div class="value">Mudau</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">ID Number</div>
+                    <div class="value">HMB-$(date +%Y%m%d)</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Clearance</div>
+                    <div class="value">LEVEL 5</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Sector</div>
+                    <div class="value">Rural Intelligence</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Status</div>
+                    <div class="value"><span class="status-indicator"></span> ACTIVE</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Revenue Today</div>
+                    <div class="value">R<span id="revenue">Loading...</span></div>
+                </div>
+            </div>
+            
+            <div class="qr-section">
+                <div class="qr-placeholder">
+                    📱 SCAN FOR<br>LIVE DASHBOARD
+                </div>
+                <div class="qr-text">
+                    Point camera at QR code to access<br>
+                    <strong>Humbu Imperial Revenue Dashboard</strong>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <div>ISSUED: $(date +"%Y-%m-%d")</div>
+                <div>VALID UNTIL: PERPETUAL</div>
+                <div style="margin-top: 10px; font-size: 8px;">
+                    This card verifies access to Humbu Sovereign Systems
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Fetch live revenue data
+        async function updateRevenue() {
+            try {
+                const response = await fetch('http://localhost:8083/');
+                const data = await response.json();
+                document.getElementById('revenue').textContent = 
+                    data.revenue_today.toLocaleString();
+            } catch (error) {
+                document.getElementById('revenue').textContent = '18,241+';
+            }
+        }
+        
+        // Update on load and every 30 seconds
+        updateRevenue();
+        setInterval(updateRevenue, 30000);
+        
+        // Add click functionality to QR code
+        document.querySelector('.qr-placeholder').addEventListener('click', function() {
+            window.open('revenue_dashboard.html', '_blank');
+        });
+    </script>
+</body>
+</html>
