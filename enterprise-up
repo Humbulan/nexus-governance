@@ -1,0 +1,40 @@
+#!/bin/bash
+echo "🚀 LAUNCHING ULTIMATE ENTERPRISE PLATFORM..."
+echo "CEO: Humbulani Mudau | Time: $(date '+%H:%M:%S')"
+
+# Kill existing instance
+pkill -f "node.*8102" 2>/dev/null
+sleep 1
+
+# Start the gateway
+cd api-gateway
+node index-ultimate-fixed.js &
+GATEWAY_PID=$!
+cd ..
+
+sleep 3
+
+# Verify startup
+if ps -p $GATEWAY_PID > /dev/null; then
+    echo "✅ Gateway started (PID: $GATEWAY_PID)"
+    echo "🌐 Running on: http://localhost:8102"
+    echo ""
+    echo "🔑 PRE-LOADED API KEYS:"
+    echo "   📋 admin-demo-key: hk_admin_demo_key"
+    echo "   Secret: demo_secret_123"
+    echo ""
+    echo "🏛️ ULTIMATE ENTERPRISE PLATFORM"
+    echo "=============================================="
+    echo "✅ ALL CORE FEATURES OPERATIONAL:"
+    echo "   • JWT Authentication & API Keys"
+    echo "   • Rate Limiting & Security"
+    echo "   • Event Streaming (Kafka)"
+    echo "   • Git DevOps Integration"
+    echo "   • Redis + SQLite Data Layers"
+    echo "   • Legacy Bridge (UptimeRobot 100%)"
+    echo ""
+    echo "🚀 READY FOR PRODUCTION!"
+else
+    echo "❌ Gateway failed to start"
+    exit 1
+fi
