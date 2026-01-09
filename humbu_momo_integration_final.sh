@@ -90,8 +90,8 @@ def test_real_integration():
     # Test 1: Send money
     print("\n1️⃣ Sending Money Test:")
     result = momo.send_money(
-        sender_phone="072 600 6001",
-        recipient_phone="072 123 4567",
+        sender_phone="0794658481",
+        recipient_phone="0794658481",
         amount=25.00,
         reference="humbu_test_001"
     )
@@ -102,7 +102,7 @@ def test_real_integration():
     
     # Test 2: Check balance
     print("\n2️⃣ Balance Check Test:")
-    balance = momo.check_balance("072 600 6001")
+    balance = momo.check_balance("0794658481")
     print(f"   📱 Phone: {balance['phone']}")
     print(f"   💵 Balance: R{balance['balance']}")
     print(f"   🏦 Provider: {balance['provider']}")

@@ -8,7 +8,7 @@ echo "2. Fleet Command: http://localhost:8088/index.html"
 echo "3. Financial Command: http://localhost:8088/financial.html"
 echo "4. Village Network: http://localhost:8088/village.html"
 echo ""
-echo "🌐 PUBLIC ACCESS: monitor.humbu.store/navigation.html"
+echo "🌐 PUBLIC ACCESS: humbulan.github.io/nexus-governance/navigation.html"
 echo ""
 echo "🔄 Starting server if not running..."
 pkill -f "python3 -m http.server 8088" 2>/dev/null
